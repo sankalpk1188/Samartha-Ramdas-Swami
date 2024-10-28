@@ -26,7 +26,7 @@ TABLE CONTENT
  WP STYPE
  Custom amine
 ***/
-@import url(https://fonts.bunny.net/css?family=chivo:700|manrope:400,500,700,800|shippori-mincho:700,800);
+/*@import url(https://fonts.bunny.net/css?family=chivo:700|manrope:400,500,700,800|shippori-mincho:700,800);*/
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 /*import vendors*/
 @import url(../css/vendors/normalize.css);
@@ -325,7 +325,7 @@ h6 {
 }
 
 .bg-brand-1 {
-  background-color: #902e01;
+  background-color: #98581a;
 }
 
 .bg-brand-2 {
@@ -337,7 +337,7 @@ h6 {
 }
 
 .bg-grey-60 {
-  background-color: #E0F1F4 !important;
+  background-color: #fff4ed !important;
 }
 
 .bg-white {
@@ -385,15 +385,15 @@ h6 {
 }
 
 .color-grey-300 {
-  color: #6A838C;
+  color: #804e0f;
 }
 
 .color-grey-400 {
-  color: #4E6770;
+  color: #804e0f;
 }
 
 .color-grey-500 {
-  color: #3D565F;
+  color: #804e0f;
 }
 
 .color-grey-600 {
@@ -442,9 +442,9 @@ h6 {
 
 .font-md {
   font-weight: 500 !important;
-  font-family: "Manrope", sans-serif !important;
+  font-family: "Mukta", sans-serif !important;
   line-height: 24px !important;
-  font-size: 16px !important;
+  font-size: 18px !important;
 }
 
 .font-sm {
@@ -556,7 +556,7 @@ h6 {
 }
 
 .bg-4 {
-  background-color: #D1ECF7 !important;
+  background-color: #fff4ed !important;
 }
 
 .bg-5 {
@@ -616,7 +616,7 @@ a:hover {
   height: 54px;
   border-radius: 8px;
   color: #3D565F;
-  border: 1px solid #CDE2E7;
+  border: 1px solid #804e0f47;
   padding: 18px 20px;
 }
 .form-control:focus {
@@ -910,9 +910,9 @@ body {
   position: relative;
 }
 .btn.btn-brand-1 {
-  padding: 15px 20px;
+  padding: 10px 20px;
   color: #FFF;
-  background: #054C7D;
+  background: #902e01;
   border-radius: 4px;
   font-size: 14px;
   line-height: 18px;
@@ -978,9 +978,9 @@ body {
 }
 .btn.btn-brand-1-full {
   background-color: #ffffff;
-  border: 1px solid #013556;
+  border: 1px solid #804e0f;
   border-radius: 4px;
-  color: #013556;
+  color: #804e0f;
   padding: 15px 20px;
   font-size: 14px;
   line-height: 18px;
@@ -988,7 +988,7 @@ body {
 /*  width: 100%;*/
 }
 .btn.btn-brand-1-full svg {
-  color: #013556;
+  color: #804e0f;
   transition-duration: 0.2s;
 }
 .btn.btn-brand-1-full:hover {
@@ -1610,11 +1610,11 @@ body {
 }
 
 .card-blog-grid {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .card-blog-grid .card-image {
   position: relative;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
 }
 .card-blog-grid .card-image img {
   border-radius: 4px;
@@ -1663,8 +1663,8 @@ body {
   width: 50%;
 }
 .card-blog-grid.card-blog-grid-2 {
-  padding: 18px;
-  border: 1px solid #CDE2E7;
+  padding: 5px;
+  border: 1px solid #804e0f;
   border-radius: 4px;
 }
 .card-blog-grid.card-blog-grid-2 .card-info .date-post {
@@ -1918,14 +1918,14 @@ body {
   border-bottom: 3px solid #6A838C;
 }
 .cardNumber .card-head {
-  color: #013556;
+  color: #902e01;
   font-size: 64px;
   line-height: 72px;
   font-weight: 700;
 }
 .cardNumber .card-description {
   font-size: 18px;
-  color: #013556;
+  color: #902e01;
   line-height: 24px;
   font-weight: 700;
 }
@@ -1943,7 +1943,7 @@ body {
 }
 
 .card-small {
-  border: 1px solid #B9CAD0;
+  border: 1px solid #e6d3c1;
   padding: 18px 17px;
   border-radius: 16px;
   margin-bottom: 30px;
@@ -1952,10 +1952,10 @@ body {
   text-decoration: none;
 }
 .card-small a:hover, .card-small a:hover * {
-  color: #06D6A0 !important;
+  color: #804e0f !important;
 }
 .card-small .card-image .box-image {
-  background-color: #E0F1F4;
+  background-color: #fff4ed;
   border-radius: 6px;
   padding: 8px 10px;
   display: inline-block;
@@ -1969,7 +1969,7 @@ body {
   background: url(../imgs/page/homepage3/up.svg) no-repeat right top 8px;
 }
 .card-small:hover {
-  border-color: #AFEAE4;
+  border-color: #9e75439c;
   box-shadow: 0px 0px 30px 0px rgba(14, 41, 50, 0.08);
 }
 .card-small.card-small-2 {
@@ -2755,7 +2755,6 @@ body {
   float: left;
   width: 100%;
   position: relative;
-  border-bottom: 1px solid #B9CAD0;
 }
 .header .main-header {
   display: flex;
@@ -2847,8 +2846,8 @@ body {
   font-family: "Mukta", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  color: #071920;
+  font-size: 20px;
+  color: #804e0f;
   line-height: 23px;
   display: block;
   padding: 28px 18px 28px 15px;
@@ -2856,7 +2855,7 @@ body {
   position: relative;
 }
 .header .main-menu li a:hover {
-  color: #004b7b;
+  color: #902e01;
 }
 .header .main-menu li a:hover i {
   opacity: 1;
@@ -2945,8 +2944,8 @@ body {
   width: 100%;
 }
 .header .main-menu li ul li a {
-  font-size: 14px;
-  color: #071920;
+  font-size: 20px;
+  color: #804e0f;
   position: relative;
   padding: 6px 22px 6px 22px;
   transition: 0.2s;
@@ -3701,8 +3700,8 @@ body {
   margin-bottom: 8px;
 }
 .footer .menu-footer li a {
-  color: #4E6770;
-  font-size: 16px;
+  color: #804e0f;
+  font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   text-decoration: none;
@@ -3711,14 +3710,14 @@ body {
   transition-duration: 0.2s;
 }
 .footer .menu-footer li a:hover {
-  color: #013556;
+  color: #902e01;
   transition-duration: 0.2s;
   padding-left: 2px;
 }
 .footer .footer-bottom {
-  border-top: 1px solid #6A838C;
+  border-top: 1px solid #804e0f;
   padding: 20px 0px;
-  color: #3D565F;
+  color: #804e0f;
   font-size: 14px;
 }
 .footer .footer-bottom a {
@@ -3739,7 +3738,7 @@ body {
   border: 0;
   background-color: #fff;
   transition-duration: 0.2s;
-  background-color: #054C7D;
+  background-color: #902e01;
 }
 #scrollUp i {
   display: block;
@@ -3767,7 +3766,7 @@ body {
 .footer-1 {
   background-color: #fff;
   margin: 0px 0px 0px 0px;
-  padding: 60px 0px 25px 0px;
+  padding: 40px 0px 25px 0px;
 }
 
 .footer-3 {
@@ -5478,7 +5477,7 @@ footer a {
 }
 
 .box-radius-bottom {
-  background-color: #CDE2E7;
+  background-color: #fff4ed;
   border-bottom-left-radius: 120px;
   border-bottom-right-radius: 120px;
   padding: 50px 0px;
@@ -5785,7 +5784,7 @@ footer a {
 }
 
 .border-top {
-  border-top: 1px solid #ECF1F2;
+  border-top: 1px solid #fff4ed;
 }
 
 .title-line {
@@ -6016,7 +6015,7 @@ footer a {
   padding: 10px;
   text-align: center;
   border-radius: 6px;
-  background-color: #E0F1F4;
+  background-color: #fff4ed;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -6203,7 +6202,7 @@ footer a {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-color: #054c7d;
+  background-color: #98581a;
   z-index: 1;
 }
 .banner-5 .container {
@@ -7491,7 +7490,7 @@ footer a {
 }
 
 .box-form-contact {
-  border: 1px solid #CDE2E7;
+  border: 1px solid #804e0f47;
   border-radius: 16px;
   padding: 40px 40px;
 }
@@ -8425,14 +8424,14 @@ footer.footer-4 {
 }
 
 .box-core-value {
-  padding-left: 80px;
+  padding-left: 0px;
   position: relative;
   padding-top: 15px;
 }
 .box-core-value .shape-left {
   height: 107px;
   width: 26px;
-  background: url(../imgs/page/about/arrow-down.png) no-repeat top left;
+  /*background: url(../imgs/page/about/arrow-down.png) no-repeat top left;*/
   position: absolute;
   top: 35px;
   left: 30px;
@@ -8459,14 +8458,14 @@ footer.footer-4 {
   left: 0px;
   height: 27px;
   width: 27px;
-  background: #E0F1F4 url(../imgs/page/about/tick.svg) no-repeat center;
+  background: #fff4ed url(../imgs/page/about/tick.svg) no-repeat center;
 }
 .list-core-value li:last-child .box-border-dashed {
   border-bottom: 0px;
 }
 
 .bg-core-value {
-  background-image: url(../imgs/pattern/brand_element-11.png);
+  background-image: url(https://www.ramdasswami.org/wp-content/uploads/2021/08/rss-hero-content-bottom-img.png);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -9633,4 +9632,13 @@ custom css
 }
 .text-justify{
     text-align: justify;
+}
+/*.border-image{
+    border: 2px dashed #e19d5b;
+    border-radius: 50%;
+    width: 285px;
+    height: 285px;
+}*/
+.bg-light {
+    background-color: #fff4ed !important;
 }

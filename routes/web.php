@@ -35,6 +35,9 @@ Route::get('check-session', function () {
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::match(['get','post'], '/contact-us', [IndexController::class, 'contact'])->name('contact');
 Route::get('/about-us', [IndexController::class, 'about'])->name('about');
+Route::get('/author', [IndexController::class, 'author'])->name('author');
+Route::get('/daswani', [IndexController::class, 'daswani'])->name('daswani');
+Route::get('/literature', [IndexController::class, 'literature'])->name('literature');
 
 Route::get('/reports-and-publications', [IndexController::class, 'ReportPublicationsList']);
 Route::get('/blogs', [IndexController::class, 'blogsListing'])->name('blogs');

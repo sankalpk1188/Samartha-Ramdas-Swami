@@ -33,7 +33,7 @@
     @yield('styles')
 </head>
 <body>
-    <div id="preloader-active">
+    {{-- <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="page-loading">
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     
     <!-- Page Header-->
     @include('layouts/frontLayout/front_header')

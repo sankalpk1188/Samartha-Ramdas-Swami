@@ -55,7 +55,7 @@ class IndexController extends Controller
         $about = About::first();
         $services = ServiceCategory::with('services')->where('status',1)->get();
         // $reports = Industry::orderBy('report_date','DESC')->take(4)->get();
-        $meta_title = config('app.name'). ' Chartered Accountants';
+        $meta_title = 'Home | '. config('app.name');
         return view('index',compact('meta_title','banners','stats','whykpca','about','services'));
     }
     
@@ -108,7 +108,7 @@ class IndexController extends Controller
         $data = Story::where('id',2)->first();
         $values = Core::orderBy('id','ASC')->get();
         $vision = Vision::first();
-        $meta_title = 'About Us';
+        $meta_title = 'About Us | '. config('app.name');
         return view('about',compact('meta_title','about','story','data','values','vision'));
     }
 
@@ -126,9 +126,19 @@ class IndexController extends Controller
         return view('clients_spread',compact('meta_title','clients'));
     }
 
-    public function alumni(Request $request){
-        $meta_title = 'Alumni';
-        return view('alumni',compact('meta_title'));
+    public function author(Request $request){
+        $meta_title = 'Author | '. config('app.name');
+        return view('author',compact('meta_title'));
+    }
+
+    public function literature(Request $request){
+        $meta_title = 'Literature | '. config('app.name');
+        return view('literature',compact('meta_title'));
+    }
+
+    public function daswani(Request $request){
+        $meta_title = 'Daswani | '. config('app.name');
+        return view('daswani',compact('meta_title'));
     }
 
     public function gallery(Request $request, $id=null){

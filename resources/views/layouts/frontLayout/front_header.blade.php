@@ -21,14 +21,14 @@
             <div class="box-swiper">
                 <div class="swiper-container swiper-notify">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <span class="d-inline-block font-sm color-brand-2">Stay Informed: CA Firm Launches New Advisory Division to Provide Comprehensive Financial Solutions</span>
+                        <div class="swiper-slide text-center">
+                            <span class="d-inline-block font-md color-brand-2">रामदास रामदास । हाचि सदा निदिध्यास । लागावा तो रात्रंदिस । आपुल्या मना ।।</span>
                         </div>
-                        <div class="swiper-slide">
-                            <span class="d-inline-block font-sm color-brand-2">Important Announcement: LMN CA Firm Expands Global Presence with Opening of New Office in India</span>
+                        <div class="swiper-slide text-center">
+                            <span class="d-inline-block font-md color-brand-2">रामदास रामदास । हाचि सदा निदिध्यास । लागावा तो रात्रंदिस । आपुल्या मना ।।</span>
                         </div>
-                        <div class="swiper-slide">
-                            <span class="d-inline-block font-sm color-brand-2">Company Expansion: PQR CA Firm Acquires Regional Accounting Firm to Strengthen Client Services.</span>
+                        <div class="swiper-slide text-center">
+                            <span class="d-inline-block font-md color-brand-2">रामदास रामदास । हाचि सदा निदिध्यास । लागावा तो रात्रंदिस । आपुल्या मना ।।</span>
                         </div>
                     </div>
                 </div>
@@ -54,15 +54,26 @@
                     <nav class="nav-main-menu d-none d-xl-block">
                         <ul class="main-menu">
                             <li>
-                                <a class="active" href="{{url('/')}}">Home</a>
+                                <a class="active" href="{{url('/')}}">मुखपृष्ठ</a>
                             </li>
                             <li class="has-children">
-                                <a href="javascript:void">About Us</a>
+                                <a href="javascript:void">आमच्याबद्दल</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="{{url('about-us')}}">जीवन प्रवास</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{url('/')}}">श्री समर्थ चरित्र</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            {{-- <li class="has-children">
+                                <a href="javascript:void">समर्थ</a>
                                 <ul class="sub-menu">
                                     <li><a href="{{ url('/set-language/en') }}">{{ __('messages.english') }}</a></li>
                                     <li><a href="{{ url('/set-language/mr') }}">{{ __('messages.marathi') }}</a></li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             {{-- <li class="has-children">
                                 <a class="active" href="javascript:void">Services</a>
                                 <div class="sub-menu two-col bg-core-value">
@@ -84,23 +95,29 @@
                             </li> --}}
                             
                             <li>
-                                <a href="{{url('careers')}}">Literature</a>
+                                <a href="{{url('literature')}}">विषय</a>
                             </li>
                             <li>
-                                <a href="{{url('alumni')}}">Daswani</a>
+                                <a href="{{url('author')}}">लेखक</a>
+                            </li>
+                            <li>
+                                <a href="{{url('daswani')}}">दासवाणी</a>
                             </li>
                             <li class="has-children">
-                                <a href="javascript:void">Media</a>
+                                <a href="javascript:void">छायाचित्रे</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="{{url('reports-and-publications')}}">Events</a>
+                                        <a href="{{url('/')}}">वृत्त आणि घटना</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('blogs')}}">Gallery</a>
+                                        <a href="{{url('/')}}">छायाचित्रे</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="has-children">
+                            <li>
+                                <a href="{{url('contact-us')}}">संपर्क</a>
+                            </li>
+                            <li class="has-children d-none">
                                 <a href="javascript:void">Insights</a>
                                 <ul class="sub-menu">
                                     <li>
