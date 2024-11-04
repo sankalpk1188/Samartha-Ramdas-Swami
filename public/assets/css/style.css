@@ -3725,11 +3725,11 @@ body {
 }
 
 #scrollUp {
-  width: 56px;
-  height: 56px;
+  width: 40px;
+  height: 48px;
   color: #fff;
   right: 20px;
-  bottom: 20px;
+  bottom: 85px;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;

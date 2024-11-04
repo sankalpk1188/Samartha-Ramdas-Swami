@@ -29,8 +29,13 @@
 
     <!-- Stylesheets-->
     <link href="{{asset('assets/css/style.css?v=5.0.0')}}" rel="stylesheet">
+
+    <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     @yield('styles')
+
 </head>
 <body>
     {{-- <div id="preloader-active">
@@ -52,10 +57,27 @@
 
     @yield('content')
 
-    <!-- Page Footer-->
+    <div class="lang-switch">
+        <button id="langButton" class="lang-button">
+            <i class="fa fa-language" style="color: #ffffff; font-size: 25px;"></i>&nbsp;&nbsp; Language
+        </button>
+    </div>
+
+    <div id="langModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header p-1"> 
+                <h5 style="color: #902e01;">Select Language</h5>
+                <span class="close">&times;</span>
+            </div>
+            <div class="d-flex">    
+                <a href="{{ url('swicth-lang/mr') }}" class="modal-lang-option">Marathi</a>
+                <a href="{{ url('swicth-lang/en') }}" class="modal-lang-option">English</a>
+            </div>
+        </div>
+    </div>
+
     @include('layouts/frontLayout/front_footer')
 
-    <!-- scripts -->
     <script src="{{asset('assets/js/vendors/modernizr-3.6.0.min.js')}}"></script>
     <script src="{{asset('assets/js/vendors/jquery-3.6.0.min.js')}}"></script>
     <script src="{{asset('assets/js/vendors/jquery-migrate-3.3.0.min.js')}}"></script>
@@ -79,7 +101,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="{{asset('assets/js/main.js?v=5.0.0')}}"></script>
     <script src="{{asset('assets/js/ali-animation.js?v=1.0.0')}}"></script>
+    <script>
+        const langButton = document.getElementById('langButton');
+        const langModal = document.getElementById('langModal');
+        const closeModal = document.querySelector('.close');
 
+        langButton.onclick = function() {
+            langModal.style.display = 'block';
+        };
+
+        closeModal.onclick = function() {
+            langModal.style.display = 'none';
+        };
+
+        window.onclick = function(event) {
+            if (event.target == langModal) {
+                langModal.style.display = 'none';
+            }
+        };
+    </script>
     @yield('scripts')
 
 </body>
