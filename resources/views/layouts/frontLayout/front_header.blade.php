@@ -107,10 +107,10 @@
                                 <a href="javascript:void">छायाचित्रे</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="{{url('/')}}">वृत्त आणि घटना</a>
+                                        <a href="{{url('events')}}">वृत्त आणि घटना</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('/')}}">छायाचित्रे</a>
+                                        <a href="{{url('gallery')}}">छायाचित्रे</a>
                                     </li>
                                 </ul>
                             </li>

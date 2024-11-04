@@ -39,7 +39,7 @@ Route::get('/author', [IndexController::class, 'author'])->name('author');
 Route::get('/daswani', [IndexController::class, 'daswani'])->name('daswani');
 Route::get('/literature', [IndexController::class, 'literature'])->name('literature');
 
-Route::get('/reports-and-publications', [IndexController::class, 'ReportPublicationsList']);
+Route::get('/events', [IndexController::class, 'events']);
 Route::get('/blogs', [IndexController::class, 'blogsListing'])->name('blogs');
 Route::get('/blog-detail/{id?}/{slug?}', [IndexController::class, 'blogDetail']);
 

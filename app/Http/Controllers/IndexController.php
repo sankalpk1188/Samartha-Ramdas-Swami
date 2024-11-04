@@ -142,22 +142,14 @@ class IndexController extends Controller
     }
 
     public function gallery(Request $request, $id=null){
-        $category = GalleryCategory::where('status',1)->orderBy('active','DESC')->get();
-        $photos = Gallery::select('gallery.*','gallery_category.name','gallery_category.id as category_id')
-                ->leftJoin('gallery_category','gallery_category.id','gallery.cat_id')
-                ->orderBy('gallery.id','DESC');
-        if($request->id){
-            $photos = $photos->where('gallery.cat_id',$request->id);
-            $activeTab = GalleryCategory::where('id',$request->id)->first(); 
-            $activeId = $activeTab->id;
-        }else{
-            $activeTab = GalleryCategory::where('active',1)->first(); 
-            $photos = $photos->where('gallery.cat_id',$activeTab->id);
-            $activeId = $activeTab->id;
-        }
-        $photos = $photos->paginate(8);
         $meta_title = 'Gallery';
-        return view('gallery',compact('meta_title','photos','category','activeId'));
+        return view('gallery');
+    }
+
+    public function events(){
+        
+        $meta_title = 'Reports & Publications';
+        return view('events');
     }
 
     public function blogsListing(Request $request){
@@ -170,12 +162,6 @@ class IndexController extends Controller
         $blog = Blogs::with(['comments'=> function($q) { $q->where('status',1)->orderBy('id','DESC'); },'likes'])->where('id',$id)->first();
         $meta_title = $blog->title;
         return view('blog_detail',compact('meta_title','blog'));
-    }
-
-    public function ReportPublicationsList(Request $request){
-        $reports = Industry::orderBy('report_date','DESC')->paginate(9);
-        $meta_title = 'Reports & Publications';
-        return view('report_publications',compact('meta_title','reports'));
     }
 
     public function career(Request $request){
