@@ -9,7 +9,7 @@
     <meta name="description" content="Index page">
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/imgs/template/favicon.png')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/imgs/favicon_srs.png')}}">
     <title>@if(!empty($meta_title)){{ $meta_title }} @else {{config('app.name')}} @endif</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -20,11 +20,11 @@
     <meta property="og:type" content="site" />
     <meta property="og:description" content="{{config('app.name')}}" />
     <meta property="og:url" content="{{url('/')}}" />
-    <meta property="og:image"  content="{{asset('assets/imgs/template/favicon.png')}}"  />
+    <meta property="og:image"  content="{{asset('assets/imgs/favicon_srs.png')}}"  />
     
     <meta name="twitter:title" content="{{config('app.name')}}">
     <meta name="twitter:description" content="{{config('app.name')}}">
-    <meta name="twitter:image"  content="{{asset('assets/imgs/template/favicon.png')}}" >
+    <meta name="twitter:image"  content="{{asset('assets/imgs/favicon_srs.png')}}" >
     <meta name="twitter:card" content="summary_large_image">
 
     <!-- Stylesheets-->

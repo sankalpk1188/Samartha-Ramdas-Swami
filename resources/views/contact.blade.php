@@ -6,12 +6,12 @@
     <section class="section banner-contact bg-10 bg-size" style="background-image: url('assets/imgs/about_swami.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
     </section>
     
-    <section class="section mt-70">
+    <section class="section mtb-50">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <h2 class="color-brand-1 mb-15">Get in touch</h2>
-                    <p class="font-sm color-grey-500">Do you want to know more or contact our sales department?</p>
+                    <h2 class="color-brand-1 mb-15">संपर्कात रहा</h2>
+                    {{-- <p class="font-sm color-grey-500">Do you want to know more or contact our sales department?</p> --}}
                     <div class="mt-50">
                         <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
                             <div class="card-offer card-we-do card-contact hover-up">
@@ -19,8 +19,11 @@
                                     <img src="assets/imgs/page/contact/img1.png" alt="iori">
                                 </div>
                                 <div class="card-info">
-                                    <h6 class="color-brand-1 mb-10">Visit the Knowledge Base</h6>
-                                    <p class="font-md color-grey-500 mb-5">Browse customer support articles and step-by-step instructions for specific features.</p>
+                                    <h4 class="color-brand-1 mb-10">पत्ता</h4>
+                                    <ul class="menu-footer">
+                                        <li class="font-md"><a href="{{url('/')}}">श्री समर्थ रामदास जन्मोत्सव चतु:शताब्दी सोहळा वैष्णव २१८४/ब, सदाशिव पेठ, वेदशास्त्रोत्तेजक सभेजवळ, पुणे ४११०३०.</a></li><br>
+                                        <li class="font-md"><a href="{{url('/')}}">सुरेश नीलकंठ नवरे ‘संपदा’ १९ कलानिकेतन को-ऑ हौसिंग सोसायटी, कलानगर, सातारा रोड, पुणे ४११०४३ महाराष्ट्र (भारत)</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -30,12 +33,12 @@
                                     <img src="assets/imgs/page/contact/img2.png" alt="iori">
                                 </div>
                                 <div class="card-info">
-                                    <h6 class="color-brand-1 mb-10">Watch Product Videos</h6>
-                                    <p class="font-md color-grey-500 mb-5">Watch our video tutorials for visual walkthroughs on how to use our features.</p>
+                                    <h4 class="color-brand-1 mb-10">ईमेल</h4>
+                                    <p class="font-md color-grey-500 mb-5"><a href="mailto:info@samarthramdas400.in"> info@samarthramdas400.in </a></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
+                        <div class="wow animate__animated animate__fadeInUp d-none" data-wow-delay=".4s">
                             <div class="card-offer card-we-do card-contact hover-up">
                                 <div class="card-image">
                                     <img src="assets/imgs/page/contact/img3.png" alt="iori">
@@ -67,11 +70,6 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
-                                <div class="form-group mb-25">
-                                    <input class="form-control icon-company" type="text" placeholder="Company">
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
                                 <div class="form-group mb-25">
                                     <input class="form-control" type="text" placeholder="Subject">
                                 </div>

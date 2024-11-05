@@ -47,7 +47,7 @@
             <div class="header-left">
                 <div class="header-logo">
                     <a class="d-flex" href="{{url('/')}}">
-                        <img alt="logo" src="{{asset('/assets/imgs/template/swami-ramdas.png')}}">
+                        <img alt="logo" src="{{asset('/assets/imgs/Logo_srs.svg')}}" >
                     </a>
                 </div>
                 <div class="header-nav">
@@ -128,12 +128,6 @@
                                     </li>
                                 </ul>
                             </li>
-                            {{-- <li>
-                                <a href="{{url('swicth-lang/mr')}}" class="lang-button">Marathi</a>
-                               <a href="{{url('swicth-lang/en')}}" class="lang-button">English /</a>
-                            </li> --}}
-
-                            
                         </ul>
                     </nav>
                     <div class="burger-icon burger-icon-white">
@@ -142,11 +136,6 @@
                         <span class="burger-icon-bottom"></span>
                     </div>
                 </div>
-                {{-- <div class="header-right">
-                    <div class="d-none d-sm-inline-block">
-                        <a class="btn btn-brand-1 hover-up" href="{{url('contact-us')}}">Contact Us</a>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </div>

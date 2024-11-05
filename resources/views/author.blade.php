@@ -4,60 +4,204 @@
 <main class="main">
 	<section class="section banner-contact bg-10 bg-size" style="background-image: url('assets/imgs/about_swami.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
     </section>
-    
-	<section class="section mt-90">
+
+    <section class="section mt-90">
 	    <div class="container">
-	        <div class="row align-items-start">
-	            <div class="col-lg-6">
-	                <h6 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".s">Our leadership team</h6>
-	                <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">Meet the amazing team behind Iori</h2>
-	            </div>
-	        </div>
-	        <div class="row align-items-start">
-	            <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-	                <div class="card-team mb-30">
-	                    <div class="card-image">
-	                        <img src="assets/imgs/page/about/team1.png" alt="iori">
+	        <h2 class="color-brand-1 mb-50 wow animate__animated animate__fadeIn" data-wow-delay=".2s">Meet the Authors</h2>
+	        <div class="row">
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
 	                    </div>
-	                    <div class="card-info">
-	                        <a class="font-lg" href="#">Devon Lane</a>
-	                        <p class="font-xs color-grey-400">Sharing content online allows you to craft an online persona that reflects your personal values and professional skills. Even if you only use social media occasionally</p>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-	                <div class="card-team mb-30">
-	                    <div class="card-image">
-	                        <img src="assets/imgs/page/about/team2.png" alt="iori">
-	                    </div>
-	                    <div class="card-info">
-	                        <a class="font-lg" href="#">Jennie Tho</a>
-	                        <p class="font-xs color-grey-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus.</p>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
 	                    </div>
 	                </div>
 	            </div>
-	            <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-	                <div class="card-team mb-30">
-	                    <div class="card-image">
-	                        <img src="assets/imgs/page/about/team3.png" alt="iori">
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
 	                    </div>
-	                    <div class="card-info">
-	                        <a class="font-lg" href="#">Symon Lesin</a>
-	                        <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate clientsorder a publication to publish news. Excepteur sint occaecat cupidatat non proident,</p>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeIn" data-wow-delay=".s">
-	                <div class="card-team mb-30">
-	                    <div class="card-image">
-	                        <img src="assets/imgs/page/team/team1.png" alt="iori">
-	                    </div>
-	                    <div class="card-info">
-	                        <a class="font-lg" href="#">Virginia Aguilar</a>
-	                        <p class="font-xs color-grey-400">In a professional context it often happens that private or corporate clientsorder a publication to publish news. Excepteur sint occaecat cupidatat non proident,</p>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
 	                    </div>
 	                </div>
 	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow animate__animated animate__fadeIn">
+	                <div class="card-member">
+	                    <div class="card-top align-items-center">
+	                        <div class="card-image">
+	                            <img src="assets/imgs/page/team/member1.png" alt="iori">
+	                        </div>
+	                        <div class="card-info">
+	                            <span class="font-lg-bold color-brand-1">Darrell Steward</span>
+	                            <p class="font-xs color-grey-200">Product Designer</p>
+	                        </div>
+	                    </div>
+	                    <div class="card-bottom">
+	                        <p class="font-xs color-grey-500">Joined since 2012, when we were just established. He is a great companion.</p>
+	                    </div>
+	                </div>
+	            </div>
+
 	        </div>
 	    </div>
 	</section>

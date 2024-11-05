@@ -381,7 +381,7 @@ h6 {
 }
 
 .color-grey-200 {
-  color: #8EA4AC;
+  color: #804e0f;
 }
 
 .color-grey-300 {
@@ -580,11 +580,11 @@ h6 {
 }
 
 a {
-  color: #071920;
+  color: #804e0f;
   text-decoration: none;
 }
 a:hover {
-  color: #013556;
+  color: #902e01;
 }
 
 @media (min-width: 1400px) {
@@ -901,9 +901,9 @@ body {
 
 .btn {
   border-radius: 4px;
-  padding: 10px 0px 10px 22px;
+  padding: 10px 0px 10px 0px;
   font-family: "Mukta", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   text-decoration: none;
@@ -914,7 +914,7 @@ body {
   color: #FFF;
   background: #902e01;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   font-weight: 700;
 }
@@ -922,7 +922,7 @@ body {
   color: #FFE7BB;
 }
 .btn.btn-brand-1:hover {
-  background-color: #125985;
+  background-color: #904e0f;
   color: #FFF;
 }
 .btn.btn-brand-1:hover * {
@@ -943,7 +943,7 @@ body {
   transition-duration: 0.2s;
 }
 .btn.btn-default:hover {
-  color: #125985 !important;
+  color: #902e01 !important;
 }
 .btn.btn-default:hover svg {
   transform: rotate(-45deg);
@@ -992,7 +992,7 @@ body {
   transition-duration: 0.2s;
 }
 .btn.btn-brand-1-full:hover {
-  background-color: #013556;
+  background-color: #902e01;
   color: #FFF;
 }
 .btn.btn-brand-1-full:hover svg {
@@ -2618,7 +2618,7 @@ body {
 
 .icon-16 {
   height: 16px;
-  color: #071920;
+  color: #902e01;
 }
 
 .banner-1 {
@@ -2768,7 +2768,7 @@ body {
   width: 100%;
 }
 .header .main-header .header-left .header-logo {
-  max-width: 250px;
+  max-width: 280px;
   width: 100%;
 }
 .header .main-header .header-left .header-logo a {
@@ -2989,7 +2989,7 @@ body {
   z-index: 1000;
   left: 0;
   transition: all 0.3s ease 0s;
-  border-bottom: 1px solid #B9CAD0;
+  /*border-bottom: 1px solid #B9CAD0;*/
   background: #fff;
 }
 .sticky-bar.stick.sticky-white-bg {
@@ -6298,20 +6298,22 @@ footer a {
   content: "";
   height: 620px;
   width: 620px;
-  background-color: #FFE7BB;
-  /*background-image: url('../../assets/imgs/canvas_bg.png');*/
+  /*background-color: #FFE7BB;*/
+  background-image: url('../../assets/imgs/banner_srs.png');
   border-radius: 50%;
   position: absolute;
-  bottom: -140px;
+  bottom: -90px;
   left: -15px;
   z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box-banner-6 .img-main {
   position: relative;
   z-index: 3;
   display: block;
-  max-width: 70%;
-  padding-left: 19%;
+  max-width: 25%;
+  margin-left: 26%;
 }
 .box-banner-6 .img-testimonials-1 {
   position: absolute;
@@ -8081,7 +8083,7 @@ textarea.textarea-control {
   content: "";
   height: 100%;
   width: 100%;
-  border: 3px solid #AFEAE4;
+  border: 3px solid #a46f31;
   position: absolute;
   top: 8px;
   left: -8px;
@@ -8110,7 +8112,7 @@ textarea.textarea-control {
 }
 
 .banner-team {
-  background: url(../imgs/pattern/brand_element-02.png) no-repeat top left;
+  /*background: url(../imgs/pattern/brand_element-02.png) no-repeat top left;*/
   background-size: 12%;
 }
 
@@ -9641,4 +9643,9 @@ custom css
 }*/
 .bg-light {
     background-color: #fff4ed !important;
+}
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1260px!important;
+    }
 }

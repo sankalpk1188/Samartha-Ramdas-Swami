@@ -23,7 +23,7 @@
                             <h1 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">श्री समर्थ रामदास स्वामी</h1>
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <p class="font-md color-grey-500 mb-30 wow animate__animated animate__fadeIn text-justify" data-wow-delay=".2s">बलशाली आणि चारित्र्यसम्पन्न मानवधर्म हे ज्यांचे उद्दिष्ट असे सार्वकालिक संत! त्यांच्या वाणीने सुमारे चारशे वर्षांपूर्वी मरगळलेल्या महाराष्ट्राला संजीवनी दिली होती.<br><br>आजचा भारत गरीबी, भ्रष्ट्राचार दुबळेपणा स्वैराचार, उपभोगवाद, यांच्या जाळ्यात सापडला आहे. विवेक आणि योग्य आचारधर्माची शिकवण देणारे समर्थान्चे विचारच दिशाहीन भरकटणार्‍या आजच्या तरुणाईला योग्य मार्गावर आणू शकतात. आत्मसन्मान, आत्मसंयम, आरोग्य आणि समय व्यवस्थापनाचे भान आणून देणारी श्री रामदासांची शिकवण ही आपली जणू वडिलार्जित संपत्ति ! तिचे आपण संपादन करु या. परमार्थाची कास न सोडता निर्मिलेली खरी व्यवहारवादी आणि त्याच वेळी कर्मयोगी आणि चारित्र्यवान जीवनाची मंत्राक्षरी म्हणजे समर्थवचन!</p>
+                                    <p class="font-md color-grey-500 mb-30 wow animate__animated animate__fadeIn text-justify" data-wow-delay=".2s">बलशाली आणि चारित्र्यसम्पन्न मानवधर्म हे ज्यांचे उद्दिष्ट असे सार्वकालिक संत! त्यांच्या वाणीने सुमारे चारशे वर्षांपूर्वी मरगळलेल्या महाराष्ट्राला संजीवनी दिली होती.<br><br>आजचा भारत गरीबी, भ्रष्ट्राचार दुबळेपणा स्वैराचार, उपभोगवाद, यांच्या जाळ्यात सापडला आहे. विवेक आणि योग्य आचारधर्माची शिकवण देणारे समर्थान्चे विचारच दिशाहीन भरकटणार्‍या आजच्या तरुणाईला योग्य मार्गावर आणू शकतात. आत्मसन्मान, आत्मसंयम, आरोग्य आणि समय व्यवस्थापनाचे भान आणून देणारी श्री रामदासांची शिकवण ही आपली जणू वडिलार्जित संपत्ति ! तिचे आपण संपादन करु या. परमार्थाची कास न सोडता निर्मिलेली खरी व्यवहारवादी आणि त्याच वेळी कर्मयोगी आणि चारित्र्यवान जीवनाची मंत्राक्षरी म्हणजे समर्थवचन!<br><br>ह्या धनाची ही आम्हाला सापडलेली गुरुकिल्ली ! जितके यात भागीदार होतील तितकेच हे धन वृद्‍धिंगत होईल तेव्हा या गुरुकिल्लीचा विनामुल्य वापर करुन हे अनमोल धन आत्मसात करा आणि वृद्‍धिंगत करा, असे जाहीर आवाहन!</p>
                                 </div>
                             </div>
                         </div>
@@ -76,19 +76,18 @@
         </div>
     </section>
 
-    <section class="section mt-50 mb-30">
+    <section class="section ptb-50">
         <div class="container">
             <div class="box-container">
                 <div class="row mb-0 project-revert align-items-center">
-                    <div class="col-xl-5 col-lg-6 col-md-6 mt-30">
-                        <span class="btn btn-tag">Business</span>
-                        <h2 class="color-brand-1 mt-10 mb-15">Grow your online business now</h2>
-                        <p class="font-md color-grey-400">Access advanced order types including limit, market, stop limit and dollar cost averaging. Track your total asset holdings, values and equity over time. Monitor markets, manage your portfolio, and trade crypto on the go.</p>
-                        <div class="mt-50 text-start">
-                            <a class="btn btn-brand-1 hover-up" href="#">Know More</a>
+                    <div class="col-xl-6 col-lg-6 col-md-6 mt-30">
+                        <h2 class="color-brand-1 mt-10 mb-15">जीवन चरित</h2>
+                        <p class="font-md color-grey-400 text-justify">समर्थ रामदास का मूल नाम 'नारायण सूर्याजीपंत कुलकर्णी' (ठोसर) था। इनका जन्म महाराष्ट्र के जालना जिले के जांब नामक स्थान पर रामनवमी के दिन मध्यान्ह में जमदग्नी गोत्र के देशस्थ ऋग्वेदी ब्राह्मण परिवार में शके १५३० सन १६०८ में हुआ। समर्थ रामदास जी के पिता का नाम सूर्याजी पन्त था। वे सूर्यदेव के उपासक थे और प्रतिदिन 'आदित्यह्रदय' स्तोत्र का पाठ करते थे। वे गाँव के पटवारी थे लेकिन उनका बहुत सा समय उपासना में ही बीतता था। उनकी माता का नाम राणुबाई था। वे संत एकनाथ जी के परिवार की दूर की रिश्तेदार थी। वे भी सूर्य नारायण की उपासिका थीं। सूर्यदेव की कृपा से सूर्याजी पन्त को दो पुत्र गंगाधर स्वामी और नारायण (समर्थ रामदास) हुए। समर्थ रामदास जी के बड़े भाई का नाम गंगाधर था। उन्हें सब 'श्रेष्ठ' कहते थे। वे अध्यात्मिक सत्पुरुष थे। उन्होंने 'सुगमोपाय ' नामक ग्रन्थ की रचना की है। मामा का नाम भानजी गोसावी था। वे प्रसिद्ध कीर्तनकार थे।</p>
+                        <div class="mt-30 text-start">
+                            <a class="btn btn-brand-1 hover-up" href="{{url('about-us')}}">अधिक जाणून घ्या</a>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-6 col-md-6 mt-30">
+                    <div class="col-xl-6 col-lg-6 col-md-6 mt-30">
                         <div class="box-images-cover text-end">
                             <div class="box-images-inner">
                                 <div class="img-reveal">
@@ -105,115 +104,93 @@
         </div>
     </section>
 
-    <section class="section mt-100 d-none">
+    <section class="section ptb-50">
         <div class="container">
-            <div class="row mt-50 align-items-center">
-                <div class="col-lg-6 mb-30">
-                    <div class="title-line mb-10 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">What We Do, What You Get</div>
-                    <h2 class="color-brand-1 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">We facilitate the creation of strategy and design</h2>
+            <div class="row align-items-end">
+                <div class="col-lg-8 col-md-8">
+                    <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">दासवाणी</h2>
                 </div>
-                <div class="col-lg-6 wow animate__animated animate__fadeIn">
-                    <div class="card-offer card-we-do hover-up">
-                        <div class="card-image">
-                            <img src="assets/imgs/page/homepage2/we-do3.png" alt="iori">
-                        </div>
-                        <div class="card-info">
-                            <h4 class="color-brand-1 mb-10">
-                                <a class="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Employee Assessments</a>
-                            </h4>
-                            <p class="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
-                            <div class="box-button-offer">
-                                <a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                    </svg>
-                                </a>
-                            </div>
+                <div class="col-lg-4 col-md-4 text-md-end text-start wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
+                    <a class="btn btn-default font-sm-bold pl-0" style="color: #902e01;">सर्व पहा <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-20">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                    <div class="card-blog-grid card-blog-grid-2 hover-up">
+                        <div class="card-image img-reveal">
+                            <a href="#" onclick="openModal('assets/imgs/daswani-bg.png')">
+                                <img src="{{asset('assets/imgs/daswani-bg.png')}}" alt="iori" style="width: 100%;">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow animate__animated animate__fadeIn">
-                    <div class="card-offer card-we-do hover-up">
-                        <div class="card-image">
-                            <img src="assets/imgs/page/homepage2/we-do.png" alt="iori">
-                        </div>
-                        <div class="card-info">
-                            <h4 class="color-brand-1 mb-10">
-                                <a class="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Smart Installation Tools</a>
-                            </h4>
-                            <p class="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
-                            <div class="box-button-offer">
-                                <a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                    </svg>
-                                </a>
-                            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                    <div class="card-blog-grid card-blog-grid-2 hover-up">
+                        <div class="card-image img-reveal">
+                            <a href="#" onclick="openModal('assets/imgs/daswani-bg.png')">
+                                <img src="{{asset('assets/imgs/daswani-bg.png')}}" alt="iori" style="width: 100%;">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow animate__animated animate__fadeIn">
-                    <div class="card-offer card-we-do hover-up">
-                        <div class="card-image">
-                            <img src="assets/imgs/page/homepage2/we-do4.png" alt="iori">
-                        </div>
-                        <div class="card-info">
-                            <h4 class="color-brand-1 mb-10">
-                                <a class="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Collaborative to the core.</a>
-                            </h4>
-                            <p class="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
-                            <div class="box-button-offer">
-                                <a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow animate__animated animate__fadeIn">
-                    <div class="card-offer card-we-do hover-up">
-                        <div class="card-image">
-                            <img src="assets/imgs/page/homepage2/we-do2.png" alt="iori">
-                        </div>
-                        <div class="card-info">
-                            <h4 class="color-brand-1 mb-10">
-                                <a class="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.">Manage budgets and resources</a>
-                            </h4>
-                            <p class="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
-                            <div class="box-button-offer">
-                                <a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow animate__animated animate__fadeIn">
-                    <div class="card-offer card-we-do hover-up">
-                        <div class="card-image">
-                            <img src="assets/imgs/page/homepage2/we-do5.png" alt="iori">
-                        </div>
-                        <div class="card-info">
-                            <h4 class="color-brand-1 mb-10">
-                                <a class="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design &amp; technology.">Unlimited ways to work</a>
-                            </h4>
-                            <p class="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
-                            <div class="box-button-offer">
-                                <a class="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                    </svg>
-                                </a>
-                            </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
+                    <div class="card-blog-grid card-blog-grid-2 hover-up">
+                        <div class="card-image img-reveal">
+                            <a href="#" onclick="openModal('assets/imgs/daswani-bg.png')">
+                                <img src="{{asset('assets/imgs/daswani-bg.png')}}" alt="iori" style="width: 100%;">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="box-button text-center mt-10 wow animate__animated animate__fadeIn">
-                <a class="btn btn-brand-1 hover-up" href="#">Download App</a>
-                <a class="btn btn-default font-sm-bold hover-up" href="#">Learn More <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg>
-                </a>
+        </div>
+    </section>
+
+    <section class="section banner-team ptb-50">
+        <div class="container">
+            <div>
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeIn" data-wow-delay=".0s">समर्थ रामदास स्वामींचा वारसा मांडणारे विचारवंत लेखक</h2>
+                        <div class="box-button mt-30 mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                            <a class="btn btn-brand-1 hover-up" href="{{url('author')}}">अधिक जाणून घ्या</a>
+                        </div>
+                        <p class="font-md color-grey-500 mb-25 wow animate__animated animate__fadeIn text-justify" data-wow-delay=".4s">प्रत्येक प्रगल्भ शिकवणीमागे समर्थ रामदासस्वामींचे ज्ञान जपण्यासाठी आणि शेअर करण्यासाठी समर्पित उत्कट लेखकांचा संघ असतो. हे लेखक त्याचे कालातीत तत्त्वज्ञान आणि मूल्ये जिवंत करण्यासाठी समर्पित आहेत, त्याच्या अंतर्दृष्टीचा विचारपूर्वक अर्थ लावतात आणि ते सर्वांसाठी प्रवेशयोग्य बनवतात. त्यांच्या वारशाबद्दल मनापासून आदर ठेवून, समर्थ रामदास स्वामींचे ज्ञान पिढ्यानपिढ्या गुंजत राहील याची खात्री करून वाचकांना प्रेरणा, मार्गदर्शन आणि उन्नती करण्याचे त्यांचे ध्येय आहे.</p>
+                    </div>
+                    <div class="col-lg-7 d-none d-lg-block">
+                        <div class="box-banner-team">
+                            <div class="arrow-down-banner shape-1"></div>
+                            <div class="arrow-right-banner shape-2"></div>
+                            <div class="banner-col-1">
+                                <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".0s">
+                                    <img src="assets/imgs/page/team/banner1.png" alt="iori">
+                                </div>
+                            </div>
+                            <div class="banner-col-2">
+                                <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".2s">
+                                    <img src="assets/imgs/page/team/banner2.png" alt="iori">
+                                </div>
+                                <div class="img-banner hasBorder wow animate__animated animate__zoomIn" data-wow-delay=".4s">
+                                    <img src="assets/imgs/page/team/banner3.png" alt="iori">
+                                </div>
+                            </div>
+                            <div class="banner-col-3">
+                                <div class="img-banner hasBorder2 wow animate__animated animate__zoomIn" data-wow-delay=".6s">
+                                    <img src="assets/imgs/page/team/banner4.png" alt="iori">
+                                </div>
+                                <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".8s">
+                                    <img src="assets/imgs/page/team/banner5.png" alt="iori">
+                                </div>
+                                <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay="1s">
+                                    <img src="assets/imgs/page/team/banner6.png" alt="iori">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
