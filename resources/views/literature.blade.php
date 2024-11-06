@@ -56,13 +56,13 @@
 	                </div>
 	            </div>
 	            <div class="col-lg-8">
-	        		<div class="row pt-20">
+	        		<div class="row pt-20 ">
 	        			<div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
 						    <div class="card-small">
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -78,7 +78,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -94,7 +94,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -110,7 +110,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -126,7 +126,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -142,7 +142,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -158,7 +158,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -174,7 +174,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -190,7 +190,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -206,7 +206,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -222,7 +222,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -238,7 +238,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -254,7 +254,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -270,7 +270,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -286,7 +286,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -302,7 +302,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -318,7 +318,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
@@ -334,7 +334,7 @@
 						        <div class="card-image">
 						            <a href="{{url('author')}}">
 						                <div class="box-image">
-						                    <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>

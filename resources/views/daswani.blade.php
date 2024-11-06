@@ -2,11 +2,11 @@
 @section('content')
 
 <!-- Bootstrap CSS -->
-{{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
 <main class="main">
-    <section class="section banner-contact bg-10 bg-size" style="background-image: url('assets/imgs/about_swami.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
+    <section class="section banner-contact bg-10 bg-size" style="background-image: url('assets/imgs/daswani_srs.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
     </section>
 
     <section class="section mt-50 mb-50">

@@ -22,13 +22,16 @@
                 <div class="swiper-container swiper-notify">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide text-center">
-                            <span class="d-inline-block font-md color-brand-2">रामदास रामदास । हाचि सदा निदिध्यास । लागावा तो रात्रंदिस । आपुल्या मना ।।</span>
+                            <span class="d-inline-block font-md color-brand-2">रामदासीं रामदास । हाचि खरा आत्मविश्वास ।
+                                साधावी समर्थाची कृपा । सोडोनी मोहमाया ।।</span>
                         </div>
                         <div class="swiper-slide text-center">
-                            <span class="d-inline-block font-md color-brand-2">रामदास रामदास । हाचि सदा निदिध्यास । लागावा तो रात्रंदिस । आपुल्या मना ।।</span>
+                            <span class="d-inline-block font-md color-brand-2">रामदासांची सदा भक्ती । दूर करी सर्व दुःखरूपी शक्ती ।
+                                नाम स्मरावे रात्रंदिन । हाचि खरा साधन ||</span>
                         </div>
                         <div class="swiper-slide text-center">
-                            <span class="d-inline-block font-md color-brand-2">रामदास रामदास । हाचि सदा निदिध्यास । लागावा तो रात्रंदिस । आपुल्या मना ।।</span>
+                            <span class="d-inline-block font-md color-brand-2">रामदासांचा उपदेश । देई जिवाला साहस ।
+                                चालावे त्यांच्या पंथाने । होतील विघ्ने दूरचि ||</span>
                         </div>
                     </div>
                 </div>
@@ -63,7 +66,7 @@
                                         <a href="{{url('about-us')}}">जीवन प्रवास</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('/')}}">श्री समर्थ चरित्र</a>
+                                        <a href="{{url('about-us#charitra')}}">श्री समर्थ चरित्र</a>
                                     </li>
                                 </ul>
                             </li>
@@ -104,13 +107,16 @@
                                 <a href="{{url('daswani')}}">दासवाणी</a>
                             </li>
                             <li class="has-children">
-                                <a href="javascript:void">छायाचित्रे</a>
+                                <a href="javascript:void">मीडिया</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="{{url('events')}}">वृत्त आणि घटना</a>
+                                        <a href="{{url('events')}}">ऑडिओ</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('gallery')}}">छायाचित्रे</a>
+                                        <a href="{{url('gallery')}}">व्हिडिओ</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{url('events')}}">प्रकाशने</a>
                                     </li>
                                 </ul>
                             </li>

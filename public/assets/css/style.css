@@ -458,7 +458,7 @@ h6 {
   font-weight: 500;
   font-family: "Mukta", sans-serif;
   line-height: 18px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .font-3xl-bold {
@@ -1957,7 +1957,7 @@ body {
 .card-small .card-image .box-image {
   background-color: #fff4ed;
   border-radius: 6px;
-  padding: 8px 10px;
+  padding: 8px 0px;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -2622,7 +2622,7 @@ body {
 }
 
 .banner-1 {
-  padding: 80px 0px 70px 0px;
+  padding: 30px 0px 70px 0px;
 }
 
 .banner-2 {
@@ -5784,7 +5784,7 @@ footer a {
 }
 
 .border-top {
-  border-top: 1px solid #fff4ed;
+  border-top: 1px solid #804e0f!important;
 }
 
 .title-line {
@@ -6330,7 +6330,11 @@ footer a {
 
 .banner-6 {
   overflow: hidden;
-  background-color: #fff4ed;
+  background-color: #fff4ed!important;
+  background: url('https://www.ramdasswami.org/wp-content/themes/ramdasswami/img/rss-hero-left-01-img.png'), url('https://www.ramdasswami.org/wp-content/themes/ramdasswami/img/rss-hero-right-01-img.png'), url('https://www.ramdasswami.org/wp-content/themes/ramdasswami/img/rss-hero-left-02-img.png'), url('https://www.ramdasswami.org/wp-content/themes/ramdasswami/img/rss-hero-right-02-img.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0 5%, 100% 5%, 0 90%, 100% 75%;
+  /*background-image: url('../../assets/imgs/grant_banner.png');*/
 }
 
 .box-banner-right-home6 {
@@ -6814,7 +6818,7 @@ footer a {
 
 .list-buttons-circle {
   border-bottom: 0px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 .list-buttons-circle li a {
   border-radius: 50px !important;
@@ -8048,14 +8052,14 @@ textarea.textarea-control {
   top: 60%;
   width: 26px;
   height: 107px;
-  background: url(../imgs/page/team/arrow-down.png) no-repeat center;
+  background: url('../../assets/imgs/pattern/Icons-05.png') no-repeat center;
 }
 .box-banner-team .arrow-right-banner {
   left: 40%;
   width: 107px;
   height: 26px;
   bottom: 50px;
-  background: url(../imgs/page/team/arrow-right.png) no-repeat center;
+  background: url('../../assets/imgs/pattern/Icons-06.png') no-repeat center;
 }
 
 .banner-col-1 {
@@ -8100,7 +8104,7 @@ textarea.textarea-control {
   content: "";
   height: 100%;
   width: 100%;
-  border: 3px solid #AFEAE4;
+  border: 3px solid #a46f31;
   position: absolute;
   top: -8px;
   right: -8px;
@@ -8440,7 +8444,7 @@ footer.footer-4 {
 }
 
 .box-border-dashed {
-  border-bottom: 1px dashed #6A838C;
+  border-bottom: 1px dashed #902e01;
 }
 
 .list-core-value {
@@ -8467,7 +8471,7 @@ footer.footer-4 {
 }
 
 .bg-core-value {
-  background-image: url(https://www.ramdasswami.org/wp-content/uploads/2021/08/rss-hero-content-bottom-img.png);
+  background-image: url('../../assets/imgs/pattern/pen.png');
   background-repeat: no-repeat;
   background-position: bottom left;
 }

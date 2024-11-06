@@ -3,7 +3,7 @@
 
 <main class="main">
 
-    <section class="section banner-contact bg-10 bg-size" style="background-image: url('assets/imgs/about_swami.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
+    <section class="section banner-contact bg-10 bg-size" style="background-image: url('assets/imgs/contact_srs.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
     </section>
     
     <section class="section mtb-50">

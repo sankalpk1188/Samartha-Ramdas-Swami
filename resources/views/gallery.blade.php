@@ -100,7 +100,7 @@
     </style>
 
     <section class="section banner-contact bg-10 bg-size"
-        style="background-image: url('assets/imgs/about_swami.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
+        style="background-image: url('assets/imgs/gallery_srs.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
     </section>
     <section class="section mt-50 mb-50 ">
         <div class="container">
@@ -109,20 +109,20 @@
                     <li class="wow animate__ animate__fadeIn animated " data-wow-delay=".0s"
                         style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;"><a href="#tab-explore-1"
                             data-bs-toggle="tab" role="tab" aria-controls="tab-explore-1" aria-selected="true"
-                            class="active">Places to visit at Sajjangad</a>
+                            class="active">सज्जनगडावरील दर्शनीय स्थळे</a>
                         </li>
                     <li class="wow animate__ animate__fadeIn animated" data-wow-delay=".2s"
                         style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;"><a href="#tab-explore-2"
                             data-bs-toggle="tab" role="tab" aria-controls="tab-explore-2" aria-selected="false"
-                            class="">Sajjangad Premise</a></li>
+                            class="">सज्जनगड परिसर</a></li>
                     <li class="wow animate__ animate__fadeIn animated" data-wow-delay=".4s"
                         style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><a href="#tab-explore-3"
                             data-bs-toggle="tab" role="tab" aria-controls="tab-explore-3" aria-selected="false"
-                            class="">Utsav Photos </a></li>
-                    <li class="wow animate__ animate__fadeIn animated" data-wow-delay=".5s"
+                            class="">उत्सव फोटो </a></li>
+                    {{-- <li class="wow animate__ animate__fadeIn animated" data-wow-delay=".5s"
                         style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;"><a href="#tab-explore-4"
                             data-bs-toggle="tab" role="tab" aria-controls="tab-explore-4" aria-selected="false">Travel
-                            Camera</a></li>
+                            Camera</a></li> --}}
                 </ul>
                 <div class="tab-content wow animate__ animate__fadeIn animated" data-wow-delay=".0s"
                     style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
@@ -132,48 +132,16 @@
                             <div class=" row ">
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/imgs/gallery/1.png">
                                 </div>
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/imgs/gallery/2.png">
                                 </div>
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/imgs/gallery/3.png">
                                 </div>
-
-                            </div>
-                            <div class=" row pt-15">
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-
-                            </div>
-                            <div class=" row pt-15">
-                                <div class="col-sm-4 hover-up container__img-holder">
-
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -184,47 +152,15 @@
                                 <div class="col-sm-4 hover-up container__img-holder">
 
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/imgs/gallery/p1.png">
                                 </div>
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/imgs/gallery/p2.png">
                                 </div>
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img
-                                        class="img-round"src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-
-                            </div>
-                            <div class=" row pt-15">
-                                <div class="col-sm-4 hover-up container__img-holder">
-
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-
-                            </div>
-                            <div class=" row pt-15">
-                                <div class="col-sm-4 hover-up container__img-holder">
-
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        class="img-round"src="assets/imgs/gallery/p3.png">
                                 </div>
 
                             </div>
@@ -235,49 +171,16 @@
                         <div class="container">
                             <div class=" row ">
                                 <div class="col-sm-4 hover-up container__img-holder">
-
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/imgs/gallery/u1.png">
                                 </div>
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/imgs/gallery/u2.png">
                                 </div>
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-
-                            </div>
-                            <div class=" row pt-15">
-                                <div class="col-sm-4 hover-up container__img-holder">
-
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-
-                            </div>
-                            <div class=" row pt-15">
-                                <div class="col-sm-4 hover-up container__img-holder">
-
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/imgs/gallery/u3.png">
                                 </div>
 
                             </div>
@@ -288,38 +191,7 @@
                             <div class=" row ">
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-
-                            </div>
-                            <div class=" row pt-15">
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-                                <div class="col-sm-4 hover-up container__img-holder">
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
-                                </div>
-
-                            </div>
-                            <div class=" row pt-15">
-                                <div class="col-sm-4 hover-up container__img-holder">
-
-                                    <img class="img-round"
-                                        src="https://arthbodh.ycstech.co/assets/images/gallery/1712715603.media2.jpg">
+                                        src="assets/images/gallery/u1.png">
                                 </div>
                                 <div class="col-sm-4 hover-up container__img-holder">
                                     <img class="img-round"

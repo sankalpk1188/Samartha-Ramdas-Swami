@@ -2,6 +2,7 @@
 @section('content')
 
 @section('styles')
+
 <style> 
     
 </style>
@@ -9,7 +10,7 @@
 
 <main class="main">
 
-    {{-- <section class="banner-6">
+    <section class="banner-6">
         <div class="container">
             <div class="banner-1">
                 <div class="row align-items-center">
@@ -17,14 +18,15 @@
                         <img class="img-main" src="assets/imgs/banner_srs.png" alt="iori">
                     </div>
                     <div class="col-lg-7">
-                        <h1 class="color-brand-1 mb-20 text-anim">मना सज्जना भक्तिपंथेचि जावें । तरी श्रीहरी पाविजेतो स्वभावें ॥ <br>जनीं निंद्य तें सर्व सोडूनि द्यावें । जनीं वंद्य ते सर्व भावे करावे ॥</h1>
+                        <h3 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn text-center" data-wow-delay=".1s" style="font-size: 33px!important; line-height: 54px!important;">मना सज्जना भक्तिपंथेचि जावें । तरी श्रीहरी पाविजेतो स्वभावें ॥
+                            <br>जनीं निंद्य तें सर्व सोडूनि द्यावें । जनीं वंद्य ते सर्व भावे करावे ॥</h3>
                     </div>
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
-    <section class="banner-6">
+    <section class="banner-6 d-none">
         <div class="container">
             <div class="row align-items-center">
                 @if(Session::has('lang') && Session::get('lang')=='mr'|| empty(Session::get('lang')))
@@ -141,7 +143,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -157,7 +159,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -173,7 +175,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -189,7 +191,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -205,7 +207,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -221,7 +223,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -237,7 +239,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -253,7 +255,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -269,7 +271,7 @@
                                 <div class="card-image">
                                     <a href="{{url('author')}}">
                                         <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                            <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
                                         </div>
                                     </a>
                                 </div>
@@ -280,150 +282,6 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">नवविध भक्ती</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">मनाचे श्लोक निरुपण</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">दैनंदिन उपासना</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">समर्थ चरित्र</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">समर्थान्ची काव्यसृष्टी</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">गुरू तत्व</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">आरती</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">इतर</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
-                            <div class="card-small">
-                                <div class="card-image">
-                                    <a href="{{url('author')}}">
-                                        <div class="box-image">
-                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card-info">
-                                    <a href="{{url('author')}}">
-                                        <h6 class="color-brand-1 icon-up">श्लोक</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> --}}
 
                     </div>
                 </div>
@@ -493,26 +351,26 @@
                             <div class="arrow-right-banner shape-2"></div>
                             <div class="banner-col-1">
                                 <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".0s">
-                                    <img src="assets/imgs/page/team/banner1.png" alt="iori">
+                                    <img src="assets/imgs/author/sushamatai.png" alt="iori">
                                 </div>
                             </div>
                             <div class="banner-col-2">
                                 <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".2s">
-                                    <img src="assets/imgs/page/team/banner2.png" alt="iori">
+                                    <img src="assets/imgs/author/makarandnath.png" alt="iori">
                                 </div>
                                 <div class="img-banner hasBorder wow animate__animated animate__zoomIn" data-wow-delay=".4s">
-                                    <img src="assets/imgs/page/team/banner3.png" alt="iori">
+                                    <img src="assets/imgs/author/chaitanya_maharaj.png" alt="iori">
                                 </div>
                             </div>
                             <div class="banner-col-3">
                                 <div class="img-banner hasBorder2 wow animate__animated animate__zoomIn" data-wow-delay=".6s">
-                                    <img src="assets/imgs/page/team/banner4.png" alt="iori">
+                                    <img src="assets/imgs/author/varadanand_bhrati.png" alt="iori">
                                 </div>
                                 <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay=".8s">
-                                    <img src="assets/imgs/page/team/banner5.png" alt="iori">
+                                    <img src="assets/imgs/author/mohabua_ramdasi.png" alt="iori">
                                 </div>
                                 <div class="img-banner wow animate__animated animate__zoomIn" data-wow-delay="1s">
-                                    <img src="assets/imgs/page/team/banner6.png" alt="iori">
+                                    <img src="assets/imgs/author/caphle.png" alt="iori">
                                 </div>
                             </div>
                         </div>
