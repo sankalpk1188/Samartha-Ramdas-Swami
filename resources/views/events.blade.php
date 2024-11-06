@@ -8,7 +8,6 @@
         <section class="section mt-">
             <div class="container">
                 <div class="row mt-55">
-
                     <div class="col-xl-3 mb-20 col-lg-6 col-md-6 wow animate__ animate__fadeIn animated" data-wow-delay=".0s"
                         style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
                         <div class="card-blog-grid card-blog-grid-2 hover-up">

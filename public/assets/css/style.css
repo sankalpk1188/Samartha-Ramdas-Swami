@@ -369,7 +369,7 @@ h6 {
 }
 
 .color-grey-50 {
-  color: #ECF1F2;
+  color: #804e0f;
 }
 
 .color-grey-80 {
@@ -948,7 +948,7 @@ body {
 .btn.btn-default:hover svg {
   transform: rotate(-45deg);
   transition-duration: 0.2s;
-  color: #013556 !important;
+  color: #902e01 !important;
 }
 .btn.btn-default.color-brand-1 {
   transition-duration: 0.2s;
@@ -6202,7 +6202,7 @@ footer a {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-color: #98581a;
+  background-color: #fff4ed;
   z-index: 1;
 }
 .banner-5 .container {
@@ -6296,14 +6296,14 @@ footer a {
 }
 .box-banner-6::before {
   content: "";
-  height: 620px;
-  width: 620px;
+  height: 550px;
+  width: 550px;
   /*background-color: #FFE7BB;*/
   background-image: url('../../assets/imgs/banner_srs.png');
   border-radius: 50%;
   position: absolute;
-  bottom: -90px;
-  left: -15px;
+  bottom: 0px;
+  left: 0px;
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6818,18 +6818,18 @@ footer a {
 }
 .list-buttons-circle li a {
   border-radius: 50px !important;
-  background-color: #E0F1F4 !important;
+  background-color: #a3692f !important;
   border: 1px solid #CDE2E7 !important;
-  color: #3D565F !important;
-  font-size: 20px !important;
+  color: #fff !important;
+  font-size: 18px !important;
   line-height: 28px !important;
   font-weight: bold !important;
-  padding: 24px 32px !important;
+  padding: 10px 32px !important;
 }
 .list-buttons-circle li a.active {
-  color: #013556 !important;
-  background-color: #FFE7BB !important;
-  border: 1px solid #013556 !important;
+  color: #902e01 !important;
+  background-color: #fff4ed !important;
+  border: 1px solid #902e01 !important;
 }
 
 .box-tab-32 {

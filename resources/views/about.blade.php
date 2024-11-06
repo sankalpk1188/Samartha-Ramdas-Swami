@@ -13,7 +13,7 @@
 
 <main class="main">
 
-    <section class="section banner-contact bg-10 bg-size" style="background-image: url('assets/imgs/about_swami.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
+    <section class="banner-contact bg-10 bg-size" style="background-image: url('assets/imgs/about_swami.png'); width: 100%; height: 394px; background-size: cover; background-repeat: no-repeat;">
     </section>
     
     <section class="section banner-5    ">
@@ -22,7 +22,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 mb-20">
                         {{-- <span class="title-line color-brand-2 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Great sales platform</span> --}}
-                        <h2 class="color-brand-2 mt-10 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">श्री समर्थ चरित्र</h2>
+                        <h2 class="color-brand-2 mt-10 wow animate__animated animate__fadeInUp" data-wow-delay=".2s" style="color: #902e01!important;">श्री समर्थ चरित्र</h2>
                     </div>
                     <div class="col-lg-6 mb-20">
                         <p class="font-md color-grey-50 wow animate__animated animate__fadeInUp text-justify" data-wow-delay=".4s">जन्म - चैत्र शु. ९ ( रामनवमी ) शके १५३० : सन १६०८ दुपारी बारा वाजता. जिल्हा - औरंगाबाद, तालुका - अंबड, गाव - जांब. गोदावरी नदीकाठी, नाव - नारायण. मोठा भाऊ - गंगाधर, पिता - सूर्याजीपंत, माता - राणूबाई, आडनाव - ठोसर. घराण्यात सूर्य आणि श्रीराम यांच्या उपासनेची दीर्घ परंपरा.<br><br>बालपण - मर्दानी खेळ, व्यायाम यांची आवड, शरीर कमावलेले, बुध्दी तीव्र, मनोनिग्रह दृढ. वृत्ती हनुमंत आणि श्रीराम यांच्या भक्तीकडे. भक्ती, शुध्द चारित्र्य यांच्या अभावी लोक जन्ममृत्युच्या फेर्‍यात अडकतात याचे दु:ख वाटे. यातून लोकांची सुटका कशी करता येईल याची बालपणापासून चिंता. स्वत:चा विवाह, गृहस्थाश्रम यांची नावड. जन्मजात विरागी. वयाच्या अकराव्या वर्षी श्रीरामाचा साक्षात्कार. श्रीरामाचा आदेश - ‘कृष्णातीरी जाऊन धर्मस्थापना करणे. शिसोदिया वंशी शिवनामा अवतार घेणार आहे. त्यास उपासना देऊन साह्य करणे’</p>
@@ -30,14 +30,15 @@
                 </div>
                 <div class="box-video-banner">
                     <div class="image-banner-5 wow animate__animated animate__fadeIn">
-                        <img src="assets/imgs/page/homepage5/banner.png" alt="IORI">
+                        <img src="assets/imgs/page/homepage5/banner.png" alt="iori">
                     </div>
                 </div>
                 <div class="box-info-video-banner">
                     <div class="box-inner-video-banner">
                         <div class="row align-items-start">
                             <div class="col-lg-5">
-                                <p class="color-grey-500 font-lg wow animate__animated animate__fadeIn text-justify" data-wow-delay=".0s">आईच्या आग्रहाखातर नारायण लग्नाच्या बोहल्यावर उभा राहिला. त्यावेळी वय बारा वर्षांचे. पण विवाहमंत्रातील ‘सावधान’ शब्द ऎकताच खरोखरीच सावध होऊन पलायन. थेट नाशिक - पंचवटी गाठली. श्रीरामाचे दर्शन घेऊन साधनेसाठी निवांत स्थळ म्हणून नाशिकजवळील टाकळी येथे राहणे. तेथे गोदावरी - नंदिनी नद्यांचा संगम.</p>
+                                <p class="color-grey-500 font-lg wow animate__animated animate__fadeIn text-justify" data-wow-delay=".0s">आईच्या आग्रहाखातर नारायण लग्नाच्या बोहल्यावर उभा राहिला. त्यावेळी वय बारा वर्षांचे. पण विवाहमंत्रातील ‘सावधान’ शब्द ऎकताच खरोखरीच सावध होऊन पलायन. थेट नाशिक - पंचवटी गाठली. श्रीरामाचे दर्शन घेऊन साधनेसाठी निवांत स्थळ म्हणून नाशिकजवळील टाकळी येथे राहणे. तेथे गोदावरी - नंदिनी नद्यांचा संगम.
+                                </p>
                             </div>
                             <div class="col-lg-7">
                                 <div class="row">
@@ -150,4 +151,12 @@
 
 </main>
 
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+    </div>
+</div>
 @endsection('content')

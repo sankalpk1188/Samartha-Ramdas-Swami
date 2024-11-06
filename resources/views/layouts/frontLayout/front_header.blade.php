@@ -187,19 +187,16 @@
                             <nav class="mt-15">
                                 <ul class="mobile-menu font-heading">
                                     <li>
-                                        <a class="active" href="{{url('/')}}">Home</a>
+                                        <a class="active" href="{{url('/')}}">मुखपृष्ठ</a>
                                     </li>
                                     <li class="has-children">
-                                        <a href="javascript:void">About Us</a>
+                                        <a href="javascript:void">आमच्याबद्दल</a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="{{url('about-us')}}">About Kirtane & Pandit</a>
+                                                <a href="{{url('about-us')}}">जीवन प्रवास</a>
                                             </li>
                                             <li>
-                                                <a href="{{url('partners')}}">Partners</a>
-                                            </li>
-                                            <li>
-                                                <a href="{{url('industry-spread')}}">Industry Spread</a>
+                                                <a href="{{url('about-us')}}">श्री समर्थ चरित्र</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -215,16 +212,16 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="{{url('careers')}}">Careers</a>
+                                        <a href="{{url('literature')}}">विषय</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('alumni')}}">Alumni</a>
+                                        <a href="{{url('author')}}">लेखक</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('gallery')}}">Gallery</a>
+                                        <a href="{{url('daswani')}}">दासवाणी</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('contact-us')}}">Contact Us</a>
+                                        <a href="{{url('contact-us')}}">संपर्क</a>
                                     </li>
                                 </ul>
                             </nav>

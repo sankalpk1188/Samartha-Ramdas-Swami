@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="mb-10">
-                        <img src="{{asset('/assets/imgs/template/swami-ramdas.png')}}" class="w-75" alt="logo">
+                        <img src="{{asset('/assets/imgs/Logo_srs.svg')}}" class="w-75" alt="logo">
                     </div>
                     <p class="font-md mb-20 color-grey-400">बलशाली आणि चारित्र्यसम्पन्न मानवधर्म हे ज्यांचे उद्दिष्ट असे सार्वकालिक संत! त्यांच्या वाणीने सुमारे चारशे वर्षांपूर्वी मरगळलेल्या महाराष्ट्राला संजीवनी दिली होती.</p>
                     <h5 class="color-brand-1">आमचे अनुसरण करा</h5>

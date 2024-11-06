@@ -8,19 +8,36 @@
 @endsection('styles')
 
 <main class="main">
+
+    {{-- <section class="banner-6">
+        <div class="container">
+            <div class="banner-1">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 d-none d-lg-block wow animate__animated animate__fadeIn">
+                        <img class="img-main" src="assets/imgs/banner_srs.png" alt="iori">
+                    </div>
+                    <div class="col-lg-7">
+                        <h1 class="color-brand-1 mb-20 text-anim">मना सज्जना भक्तिपंथेचि जावें । तरी श्रीहरी पाविजेतो स्वभावें ॥ <br>जनीं निंद्य तें सर्व सोडूनि द्यावें । जनीं वंद्य ते सर्व भावे करावे ॥</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+
     <section class="banner-6">
         <div class="container">
-            <div class="row align-items-end">
+            <div class="row align-items-center">
                 @if(Session::has('lang') && Session::get('lang')=='mr'|| empty(Session::get('lang')))
                     <div class="col-xl-6 d-none d-xl-block">
-                        <div class="box-banner-6">
-                            <img class="img-main" src="assets/imgs/banner/rss-swami-home-img.png" alt="iori">
+                        <div>
+                            <img class="img-main" src="assets/imgs/banner_srs.png" alt="iori">
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <div class="box-banner-right-home6">
                             {{-- <span class="title-line line-48 wow animate__animated animate__fadeIn" data-wow-delay=".s">Think. Creative. Solve</span> --}}
-                            <h1 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">श्री समर्थ रामदास स्वामी</h1>
+                            <h4 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">मना सज्जना भक्तिपंथेचि जावें । तरी श्रीहरी पाविजेतो स्वभावें ॥
+                            <br>जनीं निंद्य तें सर्व सोडूनि द्यावें । जनीं वंद्य ते सर्व भावे करावे ॥</h4>
                             <div class="row">
                                 <div class="col-lg-12">
                                     <p class="font-md color-grey-500 mb-30 wow animate__animated animate__fadeIn text-justify" data-wow-delay=".2s">बलशाली आणि चारित्र्यसम्पन्न मानवधर्म हे ज्यांचे उद्दिष्ट असे सार्वकालिक संत! त्यांच्या वाणीने सुमारे चारशे वर्षांपूर्वी मरगळलेल्या महाराष्ट्राला संजीवनी दिली होती.<br><br>आजचा भारत गरीबी, भ्रष्ट्राचार दुबळेपणा स्वैराचार, उपभोगवाद, यांच्या जाळ्यात सापडला आहे. विवेक आणि योग्य आचारधर्माची शिकवण देणारे समर्थान्चे विचारच दिशाहीन भरकटणार्‍या आजच्या तरुणाईला योग्य मार्गावर आणू शकतात. आत्मसन्मान, आत्मसंयम, आरोग्य आणि समय व्यवस्थापनाचे भान आणून देणारी श्री रामदासांची शिकवण ही आपली जणू वडिलार्जित संपत्ति ! तिचे आपण संपादन करु या. परमार्थाची कास न सोडता निर्मिलेली खरी व्यवहारवादी आणि त्याच वेळी कर्मयोगी आणि चारित्र्यवान जीवनाची मंत्राक्षरी म्हणजे समर्थवचन!<br><br>ह्या धनाची ही आम्हाला सापडलेली गुरुकिल्ली ! जितके यात भागीदार होतील तितकेच हे धन वृद्‍धिंगत होईल तेव्हा या गुरुकिल्लीचा विनामुल्य वापर करुन हे अनमोल धन आत्मसात करा आणि वृद्‍धिंगत करा, असे जाहीर आवाहन!</p>
@@ -31,14 +48,14 @@
                 @else
                     <div class="col-xl-6 d-none d-xl-block">
                         <div class="box-banner-6">
-                            <img class="img-main" src="assets/imgs/banner/rss-swami-home-img.png" alt="iori">
+                            {{-- <img class="img-main" src="assets/imgs/banner/rss-swami-home-img.png" alt="iori"> --}}
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <div class="box-banner-right-home6">
                             {{-- <span class="title-line line-48 wow animate__animated animate__fadeIn" data-wow-delay=".s">Think. Creative. Solve</span> --}}
                             <h1 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn" data-wow-delay=".1s">Shri Samarth Ramdas Swami</h1>
-                            <div class="row">
+                            <div class="row" style="visibility: hidden;">
                                 <div class="col-lg-12">
                                     <p class="font-md color-grey-500 mb-30 wow animate__animated animate__fadeIn text-justify" data-wow-delay=".2s">Eternal saints whose goal is strong and characterful humanity! His voice gave life to Maharashtra which had died about four hundred years ago.<br><br>Today, India is caught in the web of poverty, corruption, weakness, immorality, and consumerism. The teachings of Samarth Ramdas, which promote wisdom and righteous conduct, are the very thoughts that can guide the lost and directionless youth of today onto the right path. The teachings of Shri Ramdas, which bring awareness of self-respect, self-discipline, health, and time management, are like an inherited treasure for us. Let us cherish and adopt these teachings. The mantra of a truly practical, yet spiritually rooted life, which upholds both Karma Yoga and strong character, is encapsulated in the words of Samarth!</p>
                                 </div>
@@ -50,7 +67,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section d-none">
         <div class="box-radius-bottom">
             <div class="container">
                 <div class="text-center">
@@ -91,13 +108,323 @@
                         <div class="box-images-cover text-end">
                             <div class="box-images-inner">
                                 <div class="img-reveal">
-                                    <img class="img-project bd-rd16" src="assets/imgs/page/homepage5/img-project2.png" alt="iori">
+                                    <img class="img-project bd-rd16" src="{{asset('assets/imgs/jivan_charitra.png')}}" alt="iori">
                                 </div>
                                 <div class="image-7 shape-3">
-                                    <img src="assets/imgs/page/homepage1/finger.png" alt="iori">
+                                    <img src="{{asset('assets/imgs/jivan_charitra.svg')}}" alt="iori" style="width: 113px;">
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section pt-0 pb-50 bg-core-value bg-grey-60">
+        <div class="container">
+            <div class="row box-list-core-value mt-70">
+                <div class="col-lg-4 mb-70 px-4">
+                    <div class="box-core-value">
+                        <div class="shape-left shape-1"></div>
+                        <h3 class="color-brand-1 mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">विषयानुरूप वर्गीकरण</h3>
+                        <p class="font-md color-grey-400 wow animate__animated animate__fadeIn text-justify" data-wow-delay=".2s">बलशाली आणि चारित्र्यसम्पन्न मानवधर्म हे ज्यांचे उद्दिष्ट असे सार्वकालिक संत! त्यांच्या वाणीने सुमारे चारशे वर्षांपूर्वी मरगळलेल्या महाराष्ट्राला संजीवनी दिली होती.<br>आजचा भारत गरीबी, भ्रष्ट्राचार दुबळेपणा स्वैराचार, उपभोगवाद, यांच्या जाळ्यात सापडला आहे. विवेक आणि योग्य आचारधर्माची शिकवण देणारे समर्थान्चे विचारच दिशाहीन भरकटणार्‍या आजच्या तरुणाईला योग्य मार्गावर आणू शकतात. </p>
+                        <div class="mt-30">
+                            <a class="btn btn-brand-1 hover-up" href="{{url('literature')}}">अधिक जाणून घ्या</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row pt-20">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">दासबोध</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">मनाचे श्लोक</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">निरुपण</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">श्रीमत् दासबोध वाचन</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">श्री मनाचे श्लोक प्रवचने</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">समर्थकृपेची वचने</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">भजन</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">करुणाष्टके</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">दासनवमी दासबोध आढावा</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">नवविध भक्ती</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">मनाचे श्लोक निरुपण</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">दैनंदिन उपासना</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">समर्थ चरित्र</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">समर्थान्ची काव्यसृष्टी</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">गुरू तत्व</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">आरती</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">इतर</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+                            <div class="card-small">
+                                <div class="card-image">
+                                    <a href="{{url('author')}}">
+                                        <div class="box-image">
+                                            <img src="assets/imgs/page/homepage3/certification.png" alt="iori">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-info">
+                                    <a href="{{url('author')}}">
+                                        <h6 class="color-brand-1 icon-up">श्लोक</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> --}}
+
                     </div>
                 </div>
             </div>
@@ -111,7 +438,7 @@
                     <h2 class="color-brand-1 mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">दासवाणी</h2>
                 </div>
                 <div class="col-lg-4 col-md-4 text-md-end text-start wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
-                    <a class="btn btn-default font-sm-bold pl-0" style="color: #902e01;">सर्व पहा <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <a href="{{url('daswani')}}" class="btn btn-default font-sm-bold pl-0" style="color: #902e01;">सर्व पहा <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
                     </a>
