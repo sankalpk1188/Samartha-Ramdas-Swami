@@ -2,6 +2,12 @@
     $url = url()->current(); 
     $allServices = App\Models\ServiceCategory::with('services')->where('status',1)->get();
 @endphp
+<style>
+    .search-btn{
+       height: 33px;
+       width: 32px;
+    }
+</style>
 
 <div class="box-notify bg-brand-1">
     <div class="container position-relative">
@@ -123,6 +129,14 @@
                             <li>
                                 <a href="{{url('contact-us')}}">संपर्क</a>
                             </li>
+                            
+                            <li class="mt-25">
+                                <form action="{{url('')}}" method="GET" id="searchForm">
+                                    <input class="rounded p-1" type="text" name="query" placeholder="Search..."/>
+                                    <button class="search-btn rounded  btn-outline-success border" type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </li>
+                            
                             <li class="has-children d-none">
                                 <a href="javascript:void">Insights</a>
                                 <ul class="sub-menu">

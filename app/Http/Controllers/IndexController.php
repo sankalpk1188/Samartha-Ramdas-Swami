@@ -31,22 +31,23 @@ use Log;
 use Session;
 
 class IndexController extends Controller
-{
+{   
     public function search(Request $request){
-        // Get the search query from the request
+       
         $query = $request->input('query');
 
-        // Perform the search (replace 'name' with the field you want to search)
-        $results = YourModel::where('name', 'LIKE', "%{$query}%")->get();
+     
+         $results = YourModel::where('name', 'LIKE', "%{$query}%")->get();
+      
 
-        // Check if the request is AJAX
+       
         if ($request->ajax()) {
-            return response()->json($results);
+            return response()->json($results);    
         }
 
         // If not AJAX, load a regular view (optional fallback)
-        return view('search.results', compact('results'));
-    }
+        return view('search', compact('results'));
+     }
 
     public function switchLang(Request $request, $lang=null){
         Session::forget('lang');
