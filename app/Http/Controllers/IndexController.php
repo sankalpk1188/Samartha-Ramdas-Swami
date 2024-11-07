@@ -112,10 +112,10 @@ class IndexController extends Controller
                 return redirect('alumni#form')->with('success_message','Form submitted successfully.');
             }
         }
-        $contacts = Contact::orderBy('id','ASC')->get();
+        // $contacts = Contact::orderBy('id','ASC')->get();
 
         $meta_title = 'Contact Us | '. config('app.name');
-        return view('contact',compact('meta_title','contacts'));
+        return view('contact',compact('meta_title'));
     }
 
     public function about(Request $request){
@@ -157,15 +157,19 @@ class IndexController extends Controller
         return view('daswani',compact('meta_title'));
     }
 
-    public function gallery(Request $request, $id=null){
-        $meta_title = 'Gallery';
-        return view('gallery');
+    public function audio(Request $request){
+        $meta_title = 'Audio | '. config('app.name');
+        return view('audio',compact('meta_title'));
     }
 
-    public function events(){
-        
-        $meta_title = 'Reports & Publications';
-        return view('events');
+    public function video(Request $request, $id=null){
+        $meta_title = 'Video';
+        return view('video',compact('meta_title'));
+    }
+
+    public function publications(){
+        $meta_title = 'Publications';
+        return view('publications',compact('meta_title'));
     }
 
     public function blogsListing(Request $request){

@@ -109,7 +109,7 @@
 	                <div class="card-member">
 	                    <div class="card-top align-items-center">
 	                        <div class="card-image">
-	                            <a href="{{url('literature')}}"><img src="assets/imgs/team/देखणे.png" alt="iori"></a>
+	                            <a href="{{url('literature')}}"><img src="assets/imgs/team/dekhane.png" alt="iori"></a>
 	                        </div>
 	                        <div class="card-info">
 	                            <a href="{{url('literature')}}"><span class="font-lg-bold color-brand-1">डॉ. रामचंद्र देखणे</span></a>
@@ -125,7 +125,7 @@
 	                <div class="card-member">
 	                    <div class="card-top align-items-center">
 	                        <div class="card-image">
-	                            <a href="{{url('literature')}}"><img src="assets/imgs/team/भोसले.png" alt="iori"></a>
+	                            <a href="{{url('literature')}}"><img src="assets/imgs/team/bhosale.png" alt="iori"></a>
 	                        </div>
 	                        <div class="card-info">
 	                            <a href="{{url('literature')}}"><span class="font-lg-bold color-brand-1">प्रा.शिवाजीराव भोसले</span></a>

@@ -16,7 +16,7 @@
                             </div>
                             <div class=" text-center border-top">
                                 <a href='{{ asset('assets/imgs/gallery/February_2013.pdf') }}' target="_blank">
-                                    <h6 class="color-brand-1 mt-5">January 2013 Report</h6>
+                                    <h6 class="color-brand-1 mt-5">जानेवारी अहवाल 2013</h6>
                                 </a>
                             </div>
                         </div>

@@ -40,9 +40,10 @@ Route::match(['get','post'], '/contact-us', [IndexController::class, 'contact'])
 Route::get('/about-us', [IndexController::class, 'about'])->name('about');
 Route::get('/author', [IndexController::class, 'author'])->name('author');
 Route::get('/daswani', [IndexController::class, 'daswani'])->name('daswani');
+Route::get('/audio', [IndexController::class, 'audio'])->name('audio');
 Route::get('/literature', [IndexController::class, 'literature'])->name('literature');
 
-Route::get('/events', [IndexController::class, 'events']);
+Route::get('/publications', [IndexController::class, 'publications']);
 Route::get('/blogs', [IndexController::class, 'blogsListing'])->name('blogs');
 Route::get('/blog-detail/{id?}/{slug?}', [IndexController::class, 'blogDetail']);
 
@@ -53,7 +54,7 @@ Route::post('submit-job-application/', [IndexController::class, 'submitJobApp'])
 Route::get('partners', [IndexController::class, 'partnersPage']);
 Route::get('clients-spread', [IndexController::class, 'clientSpreadPage']);
 Route::get('alumni', [IndexController::class, 'alumni']);
-Route::get('gallery/{id?}/{slug?}', [IndexController::class, 'gallery']);
+Route::get('video/{id?}/{slug?}', [IndexController::class, 'video']);
 
 Route::get('/services/{id}/{cat_slug}/{service_slug}', [IndexController::class, 'serviceDetailPage']);
 

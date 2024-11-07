@@ -53,7 +53,7 @@
 <header class="header sticky-bar">
     <div class="container">
         <div class="main-header">
-            <div class="header-left">
+            <div class="header-left justify-content-between">
                 <div class="header-logo">
                     <a class="d-flex" href="{{url('/')}}">
                         <img alt="logo" src="{{asset('/assets/imgs/Logo_srs.svg')}}" >
@@ -116,14 +116,15 @@
                                 <a href="javascript:void">मीडिया</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="{{url('events')}}">ऑडिओ</a>
+                                        <a href="{{url('publications')}}">प्रकाशने</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('gallery')}}">व्हिडिओ</a>
+                                        <a href="{{url('audio')}}">ऑडिओ</a>
                                     </li>
                                     <li>
-                                        <a href="{{url('events')}}">प्रकाशने</a>
+                                        <a href="{{url('video')}}">व्हिडिओ</a>
                                     </li>
+                                    
                                 </ul>
                             </li>
                             <li>
@@ -132,7 +133,7 @@
                             
                             <li class="mt-25">
                                 <form action="{{url('')}}" method="GET" id="searchForm">
-                                    <input class="rounded p-1" type="text" name="query" placeholder="Search..."/>
+                                    <input class="rounded p-1" type="text" name="query" placeholder="Search..."/ style="border: 1px solid #902e01;">
                                     <button class="search-btn rounded  btn-outline-success border" type="submit"><i class="fa fa-search"></i></button>
                                 </form>
                             </li>
