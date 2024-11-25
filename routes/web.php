@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AuthorController;
+use App\Http\Controllers\DetailPageController;
+use App\Http\Controllers\LiteratureController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\IndexController;
@@ -99,11 +102,23 @@ Route::middleware([AdminAuthenticated::class])->group(function () {
     Route::match(['get','post'], 'admin/view-about/', [HomepageController::class, 'viewAbout']);
     Route::match(['get','post'], 'admin/delete-about/{id}', [HomepageController::class,'deleteAbout']);
 
-    // stats
-    Route::match(['get','post'], 'admin/add-stats/', [HomepageController::class, 'addStats']);
-    Route::match(['get','post'], 'admin/edit-stats/{id}', [HomepageController::class, 'editStats']);
-    Route::match(['get','post'], 'admin/view-stats/', [HomepageController::class, 'viewStats']);
-    Route::match(['get','post'], 'admin/delete-stats/{id}', [HomepageController::class,'deleteStats']);
+    //literature
+    Route::match(['get','post'], 'admin/add-literature/', [LiteratureController::class, 'addLiterature']);
+    Route::match(['get','post'], 'admin/edit-literature/{id}', [LiteratureController::class, 'editLiterature']);
+    Route::match(['get','post'], 'admin/view-literature/', [LiteratureController::class, 'viewLiterature']);
+    Route::match(['get','post'], 'admin/delete-literature/{id}', [LiteratureController::class,'deleteLiterature']);
+
+    //author
+    Route::match(['get','post'], 'admin/add-author/', [AuthorController::class, 'addAuthor']);
+    Route::match(['get','post'], 'admin/edit-author/{id}', [AuthorController::class, 'editAuthor']);
+    Route::match(['get','post'], 'admin/view-author/', [AuthorController::class, 'viewAuthor']);
+    Route::match(['get','post'], 'admin/delete-author/{id}', [AuthorController::class,'deleteAuthor']);
+
+    //detailpage
+    Route::match(['get','post'], 'admin/add-detailpage/', [DetailPageController::class, 'addDetailpage']);
+    Route::match(['get','post'], 'admin/edit-detailpage/{id}', [DetailPageController::class, 'editDetailpage']);
+    Route::match(['get','post'], 'admin/view-detailpage/', [DetailPageController::class, 'viewDetailpage']);
+    Route::match(['get','post'], 'admin/delete-detailpage/{id}', [DetailPageController::class,'deleteDetailpage']);
 
     // whykpca
     Route::match(['get','post'], 'admin/add-whykpca/', [HomepageController::class, 'addWhykpca']);

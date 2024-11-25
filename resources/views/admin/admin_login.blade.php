@@ -34,7 +34,7 @@
         <h3 class="login-box-msg" style="color: #000;">Admin Panel</h3>
             <form action="{{ url('admin-login-check') }}" method="post">@csrf
                 <div class="input-group mb-3">
-                    <input type="email" name="email" class="form-control" placeholder="Email" value="admin@gmail.com" required>
+                    <input type="email" name="email" class="form-control" placeholder="Email" value="sankalp@ycstech.in" required>
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-envelope"></span>
