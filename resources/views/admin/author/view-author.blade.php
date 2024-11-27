@@ -40,10 +40,13 @@
                                         <th>Image</th>
                                         <th> Marathi Title</th>
                                         <th> English Title</th>
+                                        <th> Hindi Title</th>
                                         <th> Marathi Sub-title</th>
                                         <th> English Sub-title</th>
+                                        <th> Hindi Sub-title</th>
                                         <th> Marathi Description</th>
                                         <th> English Description</th>
+                                        <th> Hindi Description</th>
                                         <th> Action</th>                                                                       
                                     </tr>
                                 </thead>
@@ -54,10 +57,13 @@
                                     <td><a href="{{ asset('assets/imgs/literature/'.$row->image) }}"><img src="{{ asset('assets/imgs/author/'.$row->image) }}" width="100px"></a></td>                                         
                                     <td>{!! Str::limit($row->marathi_title,20)!!}</td>                                         
                                     <td>{!! Str::limit($row->english_title,20)!!}</td>                                         
+                                    <td>{!! Str::limit($row->hindi_title,20)!!}</td>                                         
                                     <td>{!! Str::limit($row->marathi_subtitle,20)!!}</td>                                         
                                     <td>{!! Str::limit($row->english_subtitle,20)!!}</td>                                         
+                                    <td>{!! Str::limit($row->hindi_subtitle,20)!!}</td>                                         
                                     <td>{!! Str::limit($row->marathi_description,20)!!}</td>                                         
                                     <td>{!! Str::limit($row->english_description,20)!!}</td>                                         
+                                    <td>{!! Str::limit($row->hindi_description,20)!!}</td>                                         
                                     <td>
                                         <a class="btn btn-default"  id="editAuthor" href="{{ url('/admin/edit-author/'.$row->id) }}" title="Edit author"><i class="fa fa-edit" style="color: #000;"></i></a> &nbsp;&nbsp;
                                         <a class="btn btn-danger" onclick="return confirm('Are you sure?')" href="{{ url('/admin/delete-author/'.$row->id) }}"><i class="fa fa-trash"></i></a> &nbsp;

@@ -161,6 +161,10 @@ class IndexController extends Controller
         $meta_title = 'Audio | '. config('app.name');
         return view('audio',compact('meta_title'));
     }
+    public function timeline(Request $request){
+        $meta_title = 'timeline | '. config('app.name');
+        return view('timeline',compact('meta_title'));
+    }
 
     public function video(Request $request, $id=null){
         $meta_title = 'Video';

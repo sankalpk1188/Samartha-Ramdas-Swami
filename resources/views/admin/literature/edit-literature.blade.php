@@ -1,4 +1,3 @@
-
 @extends('layouts/adminLayout/admin_design')
 @section('content')
 <div class="content-wrapper">
@@ -101,72 +100,68 @@
 <script src="{{ asset('backend_plugins/jquery/jquery.min.js') }}"></script>
 <script>
     $(document).ready(function() {
-        function toggleTitleFields() {
-            $('#marathiTitleField').toggle($(".language-checkbox[value='marathi']").is(':checked'));
-            $('#englishTitleField').toggle($(".language-checkbox[value='english']").is(':checked'));
-            $('#hindiTitleField').toggle($(".language-checkbox[value='hindi']").is(':checked'));
-        }
-        toggleTitleFields();
-        $('.language-checkbox').change(function() {
-            toggleTitleFields();
-        });
-        $('#editBanner').validate({
-            ignore: [],
-            debug: false,
-            rules: {
-                image: {
-                    accept: 'png|jpg|jpeg',
-                },
-            },
-            messages: {},
-            submitHandler: function(form) {
-                $(".submit").attr("disabled", true);
-                $(".submit").html("<span class='fa fa-spinner fa-spin'></span> Please wait...");
-                form.submit();
-            }
-        });
+    $('.language-checkbox').change(function() {
+        const language = $(this).val();
+        const titleField = $(`#${language}TitleField`);
 
-        $('#editLiterature').validate({
-            ignore: [],
-            debug: false,
-            rules: {
-                
-                marathi_title: {
-                    required: true,
-                    maxlength: 55,
-                },
-                english_title: {
-                    required: true,
-                    maxlength: 55,
-                },
-                hindi_title: {
-                    required: true,
-                    maxlength: 55,
-                },
-                
-                image: {
-                    required: true,
-                    accept: 'png|jpg|jpeg',
-                },
-            },
-            messages: {
-                marathi_title: {
-                    required: "Please enter no more than {0} characters.",   
-                },
-                english_title: {
-                    required: "Please enter no more than {0} characters.",   
-                },
-                hindi_title: {
-                    required: "Please enter no more than {0} characters.",   
-                },
-               
-            },
-            submitHandler: function(form) {
-                $(".submit").attr("disabled", true);
-                $(".submit").html("<span class='fa fa-spinner fa-spin'></span> Please wait...");
-                form.submit();
-            }
-        });
+        if ($(this).is(':checked')) {
+            titleField.show();
+        } else {
+            titleField.hide().find('input').val(''); 
+        }
     });
+
+    $('#addLiterature').validate({
+        ignore: [],
+        debug: false,
+        rules: {
+            image: {
+                required: true,
+                accept: 'png|jpg|jpeg',
+            },
+            marathi_title: {
+                required: function() {
+                    return $("input[name='languages[]'][value='marathi']").is(':checked');
+                },
+                maxlength: 25,
+            },
+            english_title: {
+                required: function() {
+                    return $("input[name='languages[]'][value='english']").is(':checked');
+                },
+                maxlength: 25,
+            },
+            hindi_title: {
+                required: function() {
+                    return $("input[name='languages[]'][value='hindi']").is(':checked');
+                },
+                maxlength: 25,
+            },
+        },
+        messages: {
+            marathi_title: {
+                required: "Marathi title is required when Marathi is selected.",
+                maxlength: "Marathi title cannot exceed 25 characters."
+            },
+            english_title: {
+                required: "English title is required when English is selected.",
+                maxlength: "English title cannot exceed 25 characters."
+            },
+            hindi_title: {
+                required: "Hindi title is required when Hindi is selected.",
+                maxlength: "Hindi title cannot exceed 25 characters."
+            },
+            image: {
+                required: "Please upload an image.",
+                accept: "Only PNG, JPG, and JPEG formats are allowed."
+            },
+        },
+        submitHandler: function(form) {
+            $(".submit").attr("disabled", true);
+            $(".submit").html("<span class='fa fa-spinner fa-spin'></span> Please wait...");
+            form.submit();
+        }
+    });
+});
 </script>
 @endsection

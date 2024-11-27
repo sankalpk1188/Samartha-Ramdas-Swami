@@ -53,6 +53,12 @@
                                                         {{ in_array('english', $literature->languages ?? []) ? 'checked' : '' }}>
                                                        English
                                                 </label><br>
+                                                <label>
+                                                    <input type="checkbox" name="languages[]" value="hindi"
+                                                        class="language-checkbox"
+                                                        {{ in_array('hindi', $literature->languages ?? []) ? 'checked' : '' }}>
+                                                       Hidni
+                                                </label><br>
                                             </div>
                                         </div>
                                         <div class="form-group col-md-8" id="marathiTitleField" style="display: none;">
@@ -67,6 +73,12 @@
                                                 id="english_title" value="{{ $author->english_title ?? '' }}"
                                                 placeholder="Enter English Title" required>
                                         </div>
+                                        <div class="form-group col-md-8" id="hindiTitleField" style="display: none;">
+                                            <label for="hindi_title" class="required">Hindi Title</label>
+                                            <input type="text" name="hindi_title" class="form-control"
+                                                id="hindi_title" value="{{ $author->hindi_title ?? '' }}"
+                                                placeholder="Enter Hindi Title" required>
+                                        </div>
                                         <div class="form-group col-md-8" id="marathiSubTitleField" style="display: none;">
                                             <label for="marathi_subtitle" class="required">Marathi Sub-title</label>
                                             <input type="text" name="marathi_subtitle" class="form-control"
@@ -79,6 +91,12 @@
                                                 id="english_subtitle" value="{{ $author->english_subtitle ?? '' }}"
                                                 placeholder="Enter English Sub-title" required>
                                         </div>
+                                        <div class="form-group col-md-8" id="hindiSubTitleField" style="display: none;">
+                                            <label for="hindi_subtitle" class="required">Hindi Sub-title</label>
+                                            <input type="text" name="hindi_subtitle" class="form-control"
+                                                id="hindi_subtitle" value="{{ $author->hindi_subtitle ?? '' }}"
+                                                placeholder="Enter Hindi Sub-title" required>
+                                        </div>
                                         <div class="form-group col-md-8" id="marathiDescriptionField"
                                             style="display: none;">
                                             <label for="marathi_description" class="required">Marathi Description</label>
@@ -90,6 +108,12 @@
                                             <label for="english_description" class="required">English Description</label>
                                             <textarea name="english_description" class="textarea form-control" placeholder="Enter English Description"
                                                 valve="{!! $author->english_description !!}" required>{!! $author->english_description !!}</textarea>
+                                        </div>
+                                        <div class="form-group col-md-8" id="hindiDescriptionField"
+                                            style="display: none;">
+                                            <label for="hindi_description" class="required">Hindi Description</label>
+                                            <textarea name="hindi_description" class="textarea form-control" placeholder="Enter Hindi Description"
+                                                valve="{!! $author->hindi_description !!}" required>{!! $author->hindi_description !!}</textarea>
                                         </div>
                                         <div class="form-group col-md-8">
                                             <label for="exampleInputEmail1">Image <small>(Size: 1350x500px) |
@@ -118,78 +142,55 @@
     </div>
 
     <script src="{{ asset('backend_plugins/jquery/jquery.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
     <script>
-        $(document).ready(function() {
-            function toggleTitleFields() {
-                console.log("Toggle Title Fields triggered");
-                $('#marathiTitleField').toggle($(".language-checkbox[value='marathi']").is(':checked'));
-                $('#englishTitleField').toggle($(".language-checkbox[value='english']").is(':checked'));
+      $(document).ready(function() {
+    $('.language-checkbox').change(function() {
+        const language = $(this).val(); 
+        
+        const titleField = $(`#${language}TitleField`);
+        const subtitleField = $(`#${language}SubTitleField`);
+        const descriptionField = $(`#${language}DescriptionField`);
 
-                $('#marathiSubTitleField').toggle($(".language-checkbox[value='marathi']").is(':checked'));
-                $('#englishSubTitleField').toggle($(".language-checkbox[value='english']").is(':checked'));
+        if ($(this).is(':checked')) {
+            titleField.show();
+            titleField.find('input').rules('add', { required: true, maxlength: 20 });
 
-                $('#marathiDescriptionField').toggle($(".language-checkbox[value='marathi']").is(':checked'));
-                $('#englishDescriptionField').toggle($(".language-checkbox[value='english']").is(':checked'));
-            }
-            toggleTitleFields();
-            $('.language-checkbox').change(function() {
-                console.log('Checkbox value changed');
-                toggleTitleFields();
-            });
+            subtitleField.show();
+            subtitleField.find('input').rules('add', { required: true, maxlength: 5 });
 
-            $('#editAuthor').validate({
-                ignore: [],
-                debug: false,
-                rules: {
-                    marathi_title: {
-                        required: true,
-                    },
-                    english_title: {
-                        required: true,
-                    },
-                    marathi_subtitle: {
-                        required: true,
-                    },
-                    english_subtitle: {
-                        required: true,
-                    },
-                    marathi_description: {
-                        required: true,
-                    },
-                    english_description: {
-                        required: true,
-                    },
-                    image: {
-                        required: false,
-                        accept: 'png|jpg|jpeg',
-                    },
-                },
-                messages: {
-                marathi_title: {
-                    required: "Please enter no more than {0} characters.",   
-                },
-                english_title: {
-                    required: "Please enter no more than {0} characters.",   
-                },
-                marathi_subtitle: {
-                    required: "Please enter no more than {0} characters.",   
-                },
-                english_subtitle: {
-                    required: "Please enter no more than {0} characters.",   
-                },
-                marathi_description: {
-                    required: "Please enter no more than {0} characters.",   
-                },
-                english_description: {
-                    required: "Please enter no more than {0} characters.",   
-                },              
+            descriptionField.show(); 
+            descriptionField.find('textarea').rules('add', { required: true, maxlength: 270 });
+        } else {
+            titleField.hide();
+            titleField.find('input').rules('remove', 'required').val('');
+
+            subtitleField.hide();
+            subtitleField.find('input').rules('remove', 'required').val('');
+
+            descriptionField.hide(); 
+            descriptionField.find('textarea').rules('remove', 'required').val('');
+        }
+    });
+
+    $('#editAuthor').validate({
+        ignore: ':hidden',
+        rules: {
+            image: {
+                accept: 'png|jpg|jpeg',
             },
-                submitHandler: function(form) {
-                    $(".submit").attr("disabled", true);
-                    $(".submit").html("<span class='fa fa-spinner fa-spin'></span> Please wait...");
-                    form.submit();
-                }
-            });
-        });
+        },
+        messages: {
+            image: {
+                accept: "Only PNG, JPG, or JPEG formats are allowed.",
+            },
+        },
+        submitHandler: function(form) {
+            $(".submit").attr("disabled", true).html("<span class='fa fa-spinner fa-spin'></span> Please wait...");
+            form.submit();
+        }
+    });
+});
+
     </script>
 @endsection

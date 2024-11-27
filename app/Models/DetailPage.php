@@ -10,17 +10,53 @@ class DetailPage extends Model
     use HasFactory;
     protected $table='detail_page';
     protected $fillable = [
-        'pdf',
-        'author_id',
-        'literature_id',
+        'mr_pdf_file',
+        'hi_pdf_file',
+        'en_pdf_file',
+        'mr_author_id',
+        'hi_author_id',
+        'en_author_id',
+        'mr_literature_id',
+        'hi_literature_id',
+        'en_literature_id',
     ];
+
+    public function mr_author()
+    {
+        return $this->belongsTo(Author::class, 'mr_author_id');
+    }
+
+    public function hi_author()
+    {
+        return $this->belongsTo(Author::class, 'hi_author_id');
+    }
+
+    public function en_author()
+    {
+        return $this->belongsTo(Author::class, 'en_author_id');
+    }
+
+    public function mr_literature()
+    {
+        return $this->belongsTo(Literature::class, 'mr_literature_id');
+    }
+
+    public function hi_literature()
+    {
+        return $this->belongsTo(Literature::class, 'hi_literature_id');
+    }
+
+    public function en_literature()
+    {
+        return $this->belongsTo(Literature::class, 'en_literature_id');
+    }
 
     public function author()
     {
         return $this->belongsTo(Author::class);
     }
 
-    // Relationship with Literature
+ 
     public function literature()
     {
         return $this->belongsTo(Literature::class);

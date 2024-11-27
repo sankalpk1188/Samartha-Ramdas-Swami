@@ -30,10 +30,13 @@
     <!-- Stylesheets-->
     <link href="{{asset('assets/css/style.css?v=5.0.0')}}" rel="stylesheet">
 
-    <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">    
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+
+
+
     @yield('styles')
 
 </head>
@@ -80,7 +83,7 @@
 
     <script src="{{asset('assets/js/vendors/modernizr-3.6.0.min.js')}}"></script>
     <script src="{{asset('assets/js/vendors/jquery-3.6.0.min.js')}}"></script>
-    <script src="{{asset('assets/js/vendors/jquery-migrate-3.3.0.min.js')}}"></script>
+    {{-- <script src="{{asset('assets/js/vendors/jquery-migrate-3.3.0.min.js')}}"></script> --}}
     <script src="{{asset('assets/js/vendors/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('assets/js/vendors/waypoints.js')}}"></script>
     <script src="{{asset('assets/js/vendors/wow.js')}}"></script>
@@ -101,6 +104,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="{{asset('assets/js/main.js?v=5.0.0')}}"></script>
     <script src="{{asset('assets/js/ali-animation.js?v=1.0.0')}}"></script>
+
+
     <script>
         const langButton = document.getElementById('langButton');
         const langModal = document.getElementById('langModal');

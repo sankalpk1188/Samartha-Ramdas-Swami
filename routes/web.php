@@ -44,6 +44,7 @@ Route::get('/about-us', [IndexController::class, 'about'])->name('about');
 Route::get('/author', [IndexController::class, 'author'])->name('author');
 Route::get('/daswani', [IndexController::class, 'daswani'])->name('daswani');
 Route::get('/audio', [IndexController::class, 'audio'])->name('audio');
+Route::get('/timeline', [IndexController::class, 'timeline'])->name('timeline');
 Route::get('/literature', [IndexController::class, 'literature'])->name('literature');
 
 Route::get('/publications', [IndexController::class, 'publications']);
