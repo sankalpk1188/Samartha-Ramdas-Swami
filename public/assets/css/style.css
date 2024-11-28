@@ -2020,7 +2020,7 @@ body {
   border-radius: 8px;
 }
 .card-team .card-info a {
-  color: #013556;
+  color: #902e01;
   text-decoration: none;
 }
 
@@ -2622,7 +2622,7 @@ body {
 }
 
 .banner-1 {
-  padding: 30px 0px 70px 0px;
+  padding: 30px 0px 30px 0px;
 }
 
 .banner-2 {
@@ -2799,7 +2799,7 @@ body {
   color: #013556;
 }
 .header .main-header .header-left .header-right .icon-list .arrow-down {
-  background: url(../imgs/template/icons/angle-down.svg) no-repeat right top 3px;
+  background: url(../assets/imgs/template/icons/angle-down.svg) no-repeat right top 3px;
   padding-right: 22px;
 }
 .header .main-header .header-left .header-right .icon-list .arrow-down:hover {
@@ -2820,7 +2820,7 @@ body {
   float: left;
   position: relative;
   text-align: left;
-  padding-right: 15px;
+  padding-right: 6px;
 }
 .header .main-menu li.has-children > a::after {
   content: "";
@@ -5480,7 +5480,7 @@ footer a {
   background-color: #fff4ed;
   border-bottom-left-radius: 120px;
   border-bottom-right-radius: 120px;
-  padding: 50px 0px;
+  padding: 0px 0px 50px;
 }
 
 .box-author {

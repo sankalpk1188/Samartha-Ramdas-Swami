@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{config('app.name')}} | Admin Panel</title>
-    <link rel="shortcut icon" href="{{ asset('assets/imgs/template/favicon.png') }}">
+    <link rel="shortcut icon" href="{{asset('assets/imgs/favicon_srs.png')}}">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     {{-- <link rel="stylesheet" href="{{ asset('plugins/backend_plugins/jquery-ui/jquery-ui.css') }}"> --}}

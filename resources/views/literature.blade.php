@@ -60,14 +60,14 @@
 	        			<div class="col-lg-4 col-md-4 col-sm-6 col-12 wow animate__ animate__fadeIn animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
 						    <div class="card-small">
 						        <div class="card-image">
-						            <a href="{{url('author')}}">
+						            <a href="{{url('detailpage')}}">
 						                <div class="box-image">
 						                    <img src="assets/imgs/page/homepage3/granth-07.svg" alt="iori" style="width: 60px;">
 						                </div>
 						            </a>
 						        </div>
 						        <div class="card-info">
-						            <a href="{{url('author')}}">
+						            <a href="{{url('detailpage')}}">
 						                <h6 class="color-brand-1 icon-up">दासबोध</h6>
 						            </a>
 						        </div>

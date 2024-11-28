@@ -1,8 +1,8 @@
 <?php $url = url()->current();?>
 
-<aside class="main-sidebar elevation-4" style="background:#000000;color:white;">
+<aside class="main-sidebar elevation-4" style="background:#000000; color:white;">
     <a href="{{ url('/admin/dashboard') }}" class="brand-link text-white p-2">
-        <img src="{{asset('assets/imgs/template/kpca.png')}}" class="brand-image" style="width:80%;">
+        <img src="{{asset('/assets/imgs/Logo_srs.svg')}}" class="brand-image" style="width:80%;">
     </a>
     <div class="sidebar">        
         <nav class="mt-1">
@@ -21,7 +21,6 @@
                         <p>Notifications</p>
                     </a>
                 </li>
-
 
                 <li class="nav-item">
                     <a href="#" class="nav-link text-white ">

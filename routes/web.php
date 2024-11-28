@@ -43,9 +43,15 @@ Route::match(['get','post'], '/contact-us', [IndexController::class, 'contact'])
 Route::get('/about-us', [IndexController::class, 'about'])->name('about');
 Route::get('/author', [IndexController::class, 'author'])->name('author');
 Route::get('/daswani', [IndexController::class, 'daswani'])->name('daswani');
+Route::get('/dasbodh-study', [IndexController::class, 'dasbodh'])->name('dasbodh');
 Route::get('/audio', [IndexController::class, 'audio'])->name('audio');
+<<<<<<< Updated upstream
 Route::get('/timeline', [IndexController::class, 'timeline'])->name('timeline');
+=======
+Route::get('/events', [IndexController::class, 'events'])->name('events');
+>>>>>>> Stashed changes
 Route::get('/literature', [IndexController::class, 'literature'])->name('literature');
+Route::get('/detailpage', [IndexController::class, 'detail'])->name('detail');
 
 Route::get('/publications', [IndexController::class, 'publications']);
 Route::get('/blogs', [IndexController::class, 'blogsListing'])->name('blogs');

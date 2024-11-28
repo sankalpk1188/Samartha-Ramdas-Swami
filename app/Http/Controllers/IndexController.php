@@ -157,6 +157,16 @@ class IndexController extends Controller
         return view('daswani',compact('meta_title'));
     }
 
+    public function dasbodh(Request $request){
+        $meta_title = 'Dasbodh Study | '. config('app.name');
+        return view('dasbodh_study',compact('meta_title'));
+    }
+
+    public function events(Request $request){
+        $meta_title = 'News & Events | '. config('app.name');
+        return view('events',compact('meta_title'));
+    }
+
     public function audio(Request $request){
         $meta_title = 'Audio | '. config('app.name');
         return view('audio',compact('meta_title'));
@@ -169,6 +179,11 @@ class IndexController extends Controller
     public function video(Request $request, $id=null){
         $meta_title = 'Video';
         return view('video',compact('meta_title'));
+    }
+
+    public function detail(Request $request, $id=null){
+        $meta_title = 'Detail Page';
+        return view('detailpage',compact('meta_title'));
     }
 
     public function publications(){

@@ -11,44 +11,57 @@
 
 <div class="box-notify bg-brand-1">
     <div class="container position-relative">
-        <div class="box-container-sw">
-            <div class="box-button-slider">
-                <div class="swiper-button-prev swiper-button-prev-notify">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
-                    </svg>
-                </div>
-                <div class="swiper-button-next swiper-button-next-notify">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                    </svg>
-                </div>
-            </div>
-            <div class="box-swiper">
-                <div class="swiper-container swiper-notify">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide text-center">
-                            <span class="d-inline-block font-md color-brand-2">रामदासीं रामदास । हाचि खरा आत्मविश्वास ।
-                                साधावी समर्थाची कृपा । सोडोनी मोहमाया ।।</span>
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="box-container-sw">
+                    <div class="box-button-slider">
+                        <div class="swiper-button-prev swiper-button-prev-notify">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                            </svg>
                         </div>
-                        <div class="swiper-slide text-center">
-                            <span class="d-inline-block font-md color-brand-2">रामदासांची सदा भक्ती । दूर करी सर्व दुःखरूपी शक्ती ।
-                                नाम स्मरावे रात्रंदिन । हाचि खरा साधन ||</span>
+                        <div class="swiper-button-next swiper-button-next-notify">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
                         </div>
-                        <div class="swiper-slide text-center">
-                            <span class="d-inline-block font-md color-brand-2">रामदासांचा उपदेश । देई जिवाला साहस ।
-                                चालावे त्यांच्या पंथाने । होतील विघ्ने दूरचि ||</span>
+                    </div>
+                    <div class="box-swiper">
+                        <div class="swiper-container swiper-notify">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center">
+                                    <span class="d-inline-block font-md color-brand-2">रामदासीं रामदास । हाचि खरा आत्मविश्वास ।
+                                        साधावी समर्थाची कृपा । सोडोनी मोहमाया ।।</span>
+                                </div>
+                                <div class="swiper-slide text-center">
+                                    <span class="d-inline-block font-md color-brand-2">रामदासांची सदा भक्ती । दूर करी सर्व दुःखरूपी शक्ती ।
+                                        नाम स्मरावे रात्रंदिन । हाचि खरा साधन ||</span>
+                                </div>
+                                <div class="swiper-slide text-center">
+                                    <span class="d-inline-block font-md color-brand-2">रामदासांचा उपदेश । देई जिवाला साहस ।
+                                        चालावे त्यांच्या पंथाने । होतील विघ्ने दूरचि ||</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4">
+                <span class="d-inline-block font-md color-brand-2 float-end">
+                    {{-- <a href="{{url('contact-us')}}" class="text-white">संपर्क</a> --}}
+                    <form action="{{url('')}}" method="GET" id="searchForm">
+                        <input class="rounded p-1" type="text" name="query" placeholder="Search..."/ style="border: 1px solid #902e01;">
+                        <button class="search-btn rounded  btn-outline-success border" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </span>
+            </div>
         </div>
     </div>
-    <a class="btn btn-close">
+    {{-- <a class="btn btn-close">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
         </svg>
-    </a>
+    </a> --}}
 </div>
 <header class="header sticky-bar">
     <div class="container">
@@ -73,6 +86,17 @@
                                     </li>
                                     <li>
                                         <a href="{{url('about-us#charitra')}}">श्री समर्थ चरित्र</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-children">
+                                <a href="javascript:void">विषय</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="{{url('literature')}}">विषय श्रेणी</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{url('daswani')}}">दासवाणी</a>
                                     </li>
                                 </ul>
                             </li>
@@ -103,14 +127,17 @@
                                 </div>
                             </li> --}}
                             
-                            <li>
+                            <li class="d-none">
                                 <a href="{{url('literature')}}">विषय</a>
                             </li>
                             <li>
                                 <a href="{{url('author')}}">लेखक</a>
                             </li>
                             <li>
-                                <a href="{{url('daswani')}}">दासवाणी</a>
+                                <a href="{{url('dasbodh-study')}}">दासबोध अभ्यास</a>
+                            </li>
+                            <li>
+                                <a href="{{url('events')}}">कार्यक्रम आणि बातम्या</a>
                             </li>
                             <li class="has-children">
                                 <a href="javascript:void">मीडिया</a>
@@ -131,12 +158,12 @@
                                 <a href="{{url('contact-us')}}">संपर्क</a>
                             </li>
                             
-                            <li class="mt-25">
+                            {{-- <li class="mt-25">
                                 <form action="{{url('')}}" method="GET" id="searchForm">
                                     <input class="rounded p-1" type="text" name="query" placeholder="Search..."/ style="border: 1px solid #902e01;">
                                     <button class="search-btn rounded  btn-outline-success border" type="submit"><i class="fa fa-search"></i></button>
                                 </form>
-                            </li>
+                            </li> --}}
                             
                             <li class="has-children d-none">
                                 <a href="javascript:void">Insights</a>
@@ -229,6 +256,17 @@
                                             </li>
                                             <li>
                                                 <a href="{{url('blogs')}}">Blogs</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="javascript:void">विषय</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="{{url('literature')}}">विषय श्रेणी</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{url('daswani')}}">दासवाणी</a>
                                             </li>
                                         </ul>
                                     </li>

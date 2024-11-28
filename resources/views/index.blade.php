@@ -69,25 +69,39 @@
         </div>
     </section>
 
-    <section class="section d-none">
+    <section class="section">
         <div class="box-radius-bottom">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="color-brand-1 mb-15 wow animate__animated animate__fadeInUp d-none" data-wow-delay=".0s">Loved By Developers, Trusted By Enterprises</h3>
+                    <h3 class="color-brand-1 mb-15 wow animate__ animate__fadeInUp animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">कार्यक्रम आणि बातम्या</h3>
                 </div>
-                <div class="wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                    <div class="row">
-                        <div class="col-lg-4 text-center">
-                            <img src="assets/imgs/author.png" alt="highlight" class="border-image">
-                            <h5 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn text-center" data-wow-delay=".1s">विषय</h5>
-                        </div>
-                        <div class="col-lg-4 text-center">
-                            <img src="https://www.ramdasswami.org/wp-content/uploads/2021/08/sahitya-circle-img-wb-01.png" alt="highlight" class="border-image">
-                            <h5 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn text-center" data-wow-delay=".1s">लेखक</h5>
-                        </div>
-                        <div class="col-lg-4 text-center">
-                            <img src="https://www.ramdasswami.org/wp-content/uploads/2021/08/sahitya-circle-img-wb-01.png" alt="highlight" class="border-image">
-                            <h5 class="color-brand-1 mb-20 mt-5 wow animate__animated animate__fadeIn text-center" data-wow-delay=".1s">दासवाणी</h5>
+                <div class="mt-30 wow animate__ animate__fadeInUp animated" data-wow-delay=".0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-core mb-30">
+                                    <div class="item-image">
+                                        <img src="{{asset('assets/imgs/event_photo.png')}}" alt="iori">
+                                    </div>
+                                    <div class="item-desc">
+                                        <p class="font-md color-grey-400 mb-15">कार्यक्रमाचे वर्णन येथे दिसेल</p>
+                                        <h6 class="color-brand-1">कार्यक्रम किंवा बातम्यांचे नाव</h6>
+                                        <span class="color-grey-500 font-xs">November 26, 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item-core mb-30">
+                                    <div class="item-image">
+                                        <img src="{{asset('assets/imgs/event_photo.png')}}" alt="iori">
+                                    </div>
+                                    <div class="item-desc">
+                                        <p class="font-md color-grey-400 mb-15">कार्यक्रमाचे वर्णन येथे दिसेल</p>
+                                        <h6 class="color-brand-1">कार्यक्रम किंवा बातम्यांचे नाव</h6>
+                                        <span class="color-grey-500 font-xs">November 26, 2024</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
